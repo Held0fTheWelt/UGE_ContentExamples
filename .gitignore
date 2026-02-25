@@ -12,3 +12,10 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+.vsconfig
+Plugins
+AssetPlugins
+CorePlugins
+EditorPlugins
+WidgetPlugins
+SamplePlugins
