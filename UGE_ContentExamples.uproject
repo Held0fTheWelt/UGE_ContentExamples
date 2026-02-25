@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.6",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UGE_ContentExamples",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	],
+	"AdditionalPluginDirectories": [
+		"AssetPlugins",
+		"CorePlugins",
+		"EditorPlugins",
+		"WidgetPlugins",
+		"SamplePlugins"
+	],
+	"TargetPlatforms": [
+		"Windows"
+	]
+}
