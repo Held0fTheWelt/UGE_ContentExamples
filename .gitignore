@@ -14,7 +14,6 @@ Saved
 *.xcworkspace
 .vsconfig
 Plugins
-AssetPlugins
 CorePlugins
 EditorPlugins
 WidgetPlugins
