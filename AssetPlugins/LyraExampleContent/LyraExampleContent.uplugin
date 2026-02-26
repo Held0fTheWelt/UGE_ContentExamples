@@ -14,11 +14,5 @@
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"Installed": false,
-	"IsExperimentalVersion": false,
-	"Plugins": [
-		{
-			"Name": "AudioSystem",
-			"Enabled": true
-		}
-	]
+	"IsExperimentalVersion": false
 }
