@@ -14,5 +14,11 @@
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"Installed": false,
-	"IsExperimentalVersion": false
+	"IsExperimentalVersion": false,
+	"Plugins": [
+		{
+			"Name": "LyraSharedVisualAssets",
+			"Enabled": true
+		}
+	]
 }

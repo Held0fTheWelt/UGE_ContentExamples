@@ -1,0 +1,852 @@
+{
+	"schema": "content_packaging.profile.v1",
+	"profile_id": "lyra-5.4-to-uge-contentexamples",
+	"display_name": "Lyra 5.4 to UGE ContentExamples",
+	"source": {
+		"kind": "ExternalProject",
+		"root_hint": "E:/LyraStarterGame",
+		"mounts": [
+			"/Game",
+			"/ShooterCore",
+			"/LyraExampleContent"
+		]
+	},
+	"target": {
+		"default_content_root": "AssetPlugins",
+		"default_feature_root": "Plugins/GameFeatures"
+	},
+	"class_redirects": [
+		{
+			"source_class": "/Script/LyraGame.LyraExperienceDefinition",
+			"target_class": "/Script/Core_Data.ExperienceDefinition",
+			"kind": "Class"
+		},
+		{
+			"source_class": "/Script/LyraGame.LyraExperienceActionSet",
+			"target_class": "/Script/Core_Data.ExperienceActionSet",
+			"kind": "Class"
+		},
+		{
+			"source_class": "/Script/LyraGame.LyraUserFacingExperienceDefinition",
+			"target_class": "/Script/Core_Data.UserFacingExperienceDefinition",
+			"kind": "Class"
+		},
+		{
+			"source_class": "/Script/LyraGame.LyraPawnData",
+			"target_class": "/Script/Core_System.PawnData_Core",
+			"kind": "Class"
+		},
+		{
+			"source_class": "/Script/LyraGame.LyraAbilitySet",
+			"target_class": "/Script/Core_AbilitySystem.CoreAbilitySet",
+			"kind": "Class"
+		},
+		{
+			"source_class": "/Script/LyraGame.LyraInventoryItemDefinition",
+			"target_class": "/Script/GameFeature_InventorySystemRuntime.InventoryItemDefinition",
+			"kind": "Class"
+		},
+		{
+			"source_class": "/Script/LyraGame.LyraEquipmentDefinition",
+			"target_class": "/Script/GameFeature_EquipmentSystemRuntime.EquipmentDefinition",
+			"kind": "Class"
+		},
+		{
+			"source_class": "/Script/LyraGame.LyraWeaponPickupDefinition",
+			"target_class": "/Script/GameFeature_EquipmentSystemRuntime.WeaponPickupDefinition",
+			"kind": "Class"
+		},
+		{
+			"source_class": "/Script/LyraGame.LyraTeamDisplayAsset",
+			"target_class": "/Script/Elemental_Teams.TeamDisplayAsset",
+			"kind": "Class"
+		},
+		{
+			"source_class": "/Script/LyraGame.LyraGameData",
+			"target_class": "/Script/Core_System.GameData_Core",
+			"kind": "Class"
+		},
+		{
+			"source_class": "/Script/LyraGame.PhysicalMaterialWithTags",
+			"target_class": "/Script/Core_Physics.CorePhysicalMaterialWithTags",
+			"kind": "Class"
+		}
+	],
+	"shared_dependency_rules": [
+		{
+			"rule_id": "shared_visual_foundation_dependencies",
+			"target_pack": "LyraSharedVisualAssets",
+			"match": {
+				"paths": [
+					"/Game/PhysicsMaterials/**",
+					"/ShooterCore/PhysicsMaterials/**",
+					"/Game/Effects/MaterialFunctions/**",
+					"/ShooterCore/Effects/MaterialFunctions/**",
+					"/Game/Effects/Textures/**",
+					"/ShooterCore/Effects/Textures/**",
+					"/Game/Effects/Curves/**",
+					"/ShooterCore/Effects/Curves/**",
+					"/Game/Effects/Materials/PickUp/**",
+					"/ShooterCore/Effects/Materials/PickUp/**",
+					"/Game/Characters/Heroes/Mannequin/Textures/Shared/**",
+					"/Game/Weapons/Generic/Textures/**",
+					"/ShooterCore/Weapons/Generic/Textures/**",
+					"/LyraExampleContent/Materials/Textures/**",
+					"/LyraExampleContent/Materials/MF/**",
+					"/LyraExampleContent/Materials/MPC_*",
+					"/LyraExampleContent/MSPresets/**"
+				]
+			},
+			"priority": 300,
+			"min_referencing_packs": 1
+		}
+	],
+	"composition_rebuild_rules": [
+		{
+			"rule_id": "editor_tooling_rebuild_contract",
+			"match": {
+				"classes": [
+					"EditorUtilityBlueprint"
+				]
+			},
+			"priority": 300,
+			"target_architecture": "EditorTooling",
+			"implementation_kind": "DiscardSourceEditorTooling",
+			"suggested_owner": "TargetEditorTooling",
+			"default_disposition": "discard",
+			"depends_on_packs": [],
+			"include_inferred_packs": false,
+			"implementation_notes": "Source editor utility tooling is development-only Blutility content; discard by default unless the target project deliberately defines an equivalent editor utility."
+		},
+		{
+			"rule_id": "frontend_map_rebuild_contract",
+			"match": {
+				"paths": [
+					"/Game/System/FrontEnd/Maps/**",
+					"/ShooterCore/System/FrontEnd/Maps/**"
+				]
+			},
+			"priority": 260,
+			"target_architecture": "MapAssembly",
+			"implementation_kind": "RebuildMapFromVisualAssetPacks",
+			"suggested_owner": "TargetMapAssembly",
+			"depends_on_packs": [
+				"LyraMapAssets",
+				"LyraSharedVisualAssets",
+				"LyraUIAssets"
+			],
+			"include_inferred_packs": true,
+			"implementation_notes": "Rebuild frontend level composition from routed visual and UI packs; do not import the legacy World or MapBuildDataRegistry asset directly."
+		},
+		{
+			"rule_id": "map_rebuild_contract",
+			"match": {
+				"classes": [
+					"World",
+					"MapBuildDataRegistry"
+				]
+			},
+			"priority": 240,
+			"target_architecture": "MapAssembly",
+			"implementation_kind": "RebuildMapFromVisualAssetPacks",
+			"suggested_owner": "TargetMapAssembly",
+			"depends_on_packs": [
+				"LyraMapAssets",
+				"LyraSharedVisualAssets"
+			],
+			"include_inferred_packs": true,
+			"implementation_notes": "Rebuild level/world composition from routed visual packs and target-native map assembly rules; do not import the legacy World or MapBuildDataRegistry asset directly."
+		},
+		{
+			"rule_id": "ui_rebuild_contract",
+			"match": {
+				"classes": [
+					"WidgetBlueprint",
+					"CommonActivatableWidget",
+					"CommonUserWidget"
+				]
+			},
+			"priority": 230,
+			"target_architecture": "UIComposition",
+			"implementation_kind": "RebuildWidgetOrFrontendFlowInTargetUI",
+			"suggested_owner": "TargetUI",
+			"depends_on_packs": [
+				"LyraSharedVisualAssets",
+				"LyraUIAssets"
+			],
+			"include_inferred_packs": true,
+			"implementation_notes": "Rebuild widget, screen, and frontend flow against the target UI framework while reusing routed textures, materials, fonts, and shared presentation assets."
+		},
+		{
+			"rule_id": "frontend_flow_rebuild_contract",
+			"match": {
+				"paths": [
+					"/Game/System/FrontEnd/**",
+					"/ShooterCore/System/FrontEnd/**"
+				]
+			},
+			"priority": 225,
+			"target_architecture": "UIComposition",
+			"implementation_kind": "RebuildWidgetOrFrontendFlowInTargetUI",
+			"suggested_owner": "TargetUI",
+			"depends_on_packs": [
+				"LyraSharedVisualAssets",
+				"LyraUIAssets"
+			],
+			"include_inferred_packs": true,
+			"implementation_notes": "Rebuild frontend experience and flow assets against the target UI framework while preserving references to routed UI and shared presentation packs."
+		},
+		{
+			"rule_id": "experience_rebuild_contract",
+			"match": {
+				"classes": [
+					"LyraExperienceDefinition",
+					"LyraExperienceActionSet",
+					"LyraPawnData",
+					"LyraInputConfig",
+					"LyraAbilitySet",
+					"LyraUserFacingExperienceDefinition"
+				]
+			},
+			"priority": 220,
+			"target_architecture": "ExperienceComposition",
+			"implementation_kind": "RebuildExperienceDataInTargetArchitecture",
+			"suggested_owner": "TargetExperience",
+			"depends_on_packs": [
+				"LyraCharacterAssets",
+				"LyraSharedVisualAssets",
+				"LyraUIAssets",
+				"LyraWeaponAssets"
+			],
+			"include_inferred_packs": true,
+			"implementation_notes": "Recreate experience, pawn, input, and action-set wiring as target-native data that references the routed content packs instead of legacy Lyra gameplay classes."
+		},
+		{
+			"rule_id": "animation_rebuild_contract",
+			"match": {
+				"classes": [
+					"AnimBlueprint",
+					"ControlRigBlueprint",
+					"AnimSequence",
+					"AnimMontage",
+					"AnimComposite",
+					"BlendSpace",
+					"BlendSpace1D",
+					"AimOffsetBlendSpace",
+					"PoseAsset"
+				]
+			},
+			"priority": 210,
+			"target_architecture": "AnimationComposition",
+			"implementation_kind": "RebuildAnimationAssetAgainstTargetAnimationContracts",
+			"suggested_owner": "TargetAnimation",
+			"depends_on_packs": [
+				"LyraCharacterAssets",
+				"LyraSharedVisualAssets",
+				"LyraWeaponAssets"
+			],
+			"include_inferred_packs": true,
+			"implementation_notes": "Rebuild animation blueprint, notify, modifier, sequence, or montage wiring against target skeleton and animation contracts while reusing routed mesh and presentation assets."
+		},
+		{
+			"rule_id": "equipment_rebuild_contract",
+			"match": {
+				"classes": [
+					"LyraInventoryItemDefinition",
+					"LyraEquipmentDefinition",
+					"LyraWeaponInstance",
+					"LyraWeaponPickupDefinition"
+				]
+			},
+			"priority": 200,
+			"target_architecture": "EquipmentComposition",
+			"implementation_kind": "RebuildEquipmentDataAgainstTargetContracts",
+			"suggested_owner": "TargetEquipment",
+			"depends_on_packs": [
+				"LyraCharacterAssets",
+				"LyraSharedVisualAssets",
+				"LyraWeaponAssets"
+			],
+			"include_inferred_packs": true,
+			"implementation_notes": "Rebuild inventory, equipment, and weapon definitions against target contracts while pointing visual and audio references at the routed equipment/shared packs."
+		},
+		{
+			"rule_id": "data_rebuild_contract",
+			"match": {
+				"classes": [
+					"DataRegistry",
+					"DataTable",
+					"GameFeatureData",
+					"GameSettingVisualData",
+					"ITDSpatializationSourceSettings",
+					"LyraAbilityTagRelationshipMapping",
+					"LyraAimSensitivityData",
+					"LyraContextEffectsLibrary",
+					"LyraDamagePopStyleNiagara",
+					"LyraGameData",
+					"LyraTeamDisplayAsset",
+					"NiagaraDataChannelAsset",
+					"PhysicalMaterialWithTags",
+					"PrimaryAssetLabel",
+					"PrimaryDataAsset",
+					"SoundControlBus",
+					"SoundControlBusMix",
+					"SoundModulationPatch",
+					"SubtitleDisplayOptions",
+					"UserDefinedEnum",
+					"UserDefinedStruct"
+				]
+			},
+			"priority": 190,
+			"target_architecture": "DataComposition",
+			"implementation_kind": "RebuildDataAssetAgainstTargetContracts",
+			"suggested_owner": "TargetData",
+			"depends_on_packs": [
+				"LyraSharedVisualAssets",
+				"LyraSystemAssets"
+			],
+			"include_inferred_packs": true,
+			"implementation_notes": "Recreate data registries, data tables, primary assets, and feature data in the target schema, preserving asset references only after they resolve to routed pack packages."
+		},
+		{
+			"rule_id": "gameplay_rebuild_contract",
+			"match": {
+				"classes": [
+					"BehaviorTree",
+					"BlackboardData",
+					"Blueprint",
+					"EnvQuery",
+					"GameplayAbility",
+					"GameplayAbilityBlueprint",
+					"InputAction",
+					"InputMappingContext"
+				]
+			},
+			"priority": 180,
+			"target_architecture": "GameplayComposition",
+			"implementation_kind": "RebuildBlueprintOrGameplayAssetAgainstTargetContracts",
+			"suggested_owner": "TargetGameplay",
+			"depends_on_packs": [
+				"LyraCharacterAssets",
+				"LyraSharedVisualAssets",
+				"LyraSystemAssets",
+				"LyraWeaponAssets"
+			],
+			"include_inferred_packs": true,
+			"implementation_notes": "Rebuild blueprint, AI, input, gameplay ability, and team composition logic against the target gameplay architecture instead of copying legacy class-bound assets."
+		}
+	],
+	"packs": [
+		{
+			"name": "LyraSharedVisualAssets",
+			"kind": "Content",
+			"target_root": "AssetPlugins",
+			"adopt_existing": false,
+			"routing_rules": [
+				{
+					"rule_id": "shared_visual_foundation_paths",
+					"match": {
+						"paths": [
+							"/Game/PhysicsMaterials/**",
+							"/ShooterCore/PhysicsMaterials/**",
+							"/Game/Effects/MaterialFunctions/**",
+							"/ShooterCore/Effects/MaterialFunctions/**"
+						]
+					},
+					"priority": 210
+				}
+			],
+			"exclude_rules": [],
+			"dependency_policy": {
+				"hard_references": "IncludeOrRoute",
+				"soft_references": "Review",
+				"external_plugin_references": "DeclareDependency",
+				"engine_content_references": "Allow",
+				"developer_content_references": "Block"
+			},
+			"plugin_dependencies": [],
+			"generated_assets": {
+				"game_feature_data": false
+			}
+		},
+		{
+			"name": "LyraSystemAssets",
+			"kind": "Content",
+			"target_root": "AssetPlugins",
+			"adopt_existing": false,
+			"routing_rules": [
+				{
+					"rule_id": "system_shared_paths",
+					"match": {
+						"paths": [
+							"/Game/System/**",
+							"/ShooterCore/System/**",
+							"/ShooterCore/Feedback/**",
+							"/ShooterCore/GameplayEffects/**",
+							"/ShooterCore/ContextEffects/**",
+							"/ShooterCore/PhysicsMaterials/**"
+						]
+					},
+					"priority": 115
+				},
+				{
+					"rule_id": "system_shared_classes",
+					"match": {
+						"classes": [
+							"CurveTable",
+							"CurveFloat",
+							"CurveVector",
+							"CurveLinearColor",
+							"CurveLinearColorAtlas",
+							"ForceFeedbackEffect",
+							"PhysicsAsset",
+							"PhysicalMaterial"
+						]
+					},
+					"priority": 45
+				}
+			],
+			"exclude_rules": [
+				{
+					"rule_id": "composition_assets_rebuilt_in_target",
+					"match": {
+						"classes": [
+							"Blueprint",
+							"WidgetBlueprint",
+							"AnimBlueprint",
+							"ControlRigBlueprint",
+							"EditorUtilityBlueprint",
+							"World",
+							"MapBuildDataRegistry",
+							"CommonActivatableWidget",
+							"CommonUserWidget",
+							"BehaviorTree",
+							"BlackboardData",
+							"EnvQuery",
+							"GameplayAbility",
+							"GameplayAbilityBlueprint",
+							"InputAction",
+							"InputMappingContext",
+							"DataRegistry",
+							"DataTable",
+							"GameFeatureData",
+							"PrimaryDataAsset",
+							"PrimaryAssetLabel",
+							"ObjectRedirector",
+							"UserDefinedEnum",
+							"UserDefinedStruct",
+							"LyraExperienceDefinition",
+							"LyraExperienceActionSet",
+							"LyraPawnData",
+							"LyraInputConfig",
+							"LyraAbilitySet",
+							"LyraUserFacingExperienceDefinition",
+							"LyraInventoryItemDefinition",
+							"LyraEquipmentDefinition",
+							"LyraWeaponInstance",
+							"LyraWeaponPickupDefinition",
+							"LyraTeamDisplayAsset",
+							"LyraGameData",
+							"LyraAbilityTagRelationshipMapping",
+							"LyraAimSensitivityData",
+							"LyraContextEffectsLibrary",
+							"LyraDamagePopStyleNiagara",
+							"NiagaraDataChannelAsset",
+							"GameSettingVisualData",
+							"ITDSpatializationSourceSettings",
+							"SoundControlBus",
+							"SoundControlBusMix",
+							"SoundModulationPatch",
+							"SubtitleDisplayOptions",
+							"PhysicalMaterialWithTags"
+						]
+					},
+					"priority": 1000
+				}
+			],
+			"dependency_policy": {
+				"hard_references": "IncludeOrRoute",
+				"soft_references": "Review",
+				"external_plugin_references": "DeclareDependency",
+				"engine_content_references": "Allow",
+				"developer_content_references": "Block"
+			},
+			"plugin_dependencies": [
+				"Niagara"
+			],
+			"generated_assets": {
+				"game_feature_data": false
+			}
+		},
+		{
+			"name": "LyraExampleContent",
+			"kind": "Content",
+			"target_root": "AssetPlugins",
+			"adopt_existing": true,
+			"routing_rules": [
+				{
+					"rule_id": "lyra_example_content_existing_mount",
+					"match": {
+						"paths": [
+							"/LyraExampleContent/**"
+						]
+					},
+					"priority": 220
+				}
+			],
+			"exclude_rules": [],
+			"dependency_policy": {
+				"hard_references": "IncludeOrRoute",
+				"soft_references": "Review",
+				"external_plugin_references": "DeclareDependency",
+				"engine_content_references": "Allow",
+				"developer_content_references": "Block"
+			},
+			"plugin_dependencies": [],
+			"generated_assets": {
+				"game_feature_data": false
+			}
+		},
+		{
+			"name": "LyraUIAssets",
+			"kind": "Content",
+			"target_root": "AssetPlugins",
+			"adopt_existing": false,
+			"routing_rules": [
+				{
+					"rule_id": "ui_paths",
+					"match": {
+						"paths": [
+							"/Game/UI/**",
+							"/Game/System/FrontEnd/**",
+							"/ShooterCore/UI/**",
+							"/ShooterCore/System/FrontEnd/**",
+							"/ShooterCore/System/Playlists/**"
+						]
+					},
+					"priority": 180
+				},
+				{
+					"rule_id": "ui_presentation_classes",
+					"match": {
+						"classes": [
+							"Font",
+							"FontFace",
+							"SlateWidgetStyleAsset"
+						]
+					},
+					"priority": 70
+				}
+			],
+			"exclude_rules": [],
+			"dependency_policy": {
+				"hard_references": "IncludeOrRoute",
+				"soft_references": "Review",
+				"external_plugin_references": "DeclareDependency",
+				"engine_content_references": "Allow",
+				"developer_content_references": "Block"
+			},
+			"plugin_dependencies": [
+				"CommonUI"
+			],
+			"generated_assets": {
+				"game_feature_data": false
+			}
+		},
+		{
+			"name": "LyraCharacterAssets",
+			"kind": "Content",
+			"target_root": "AssetPlugins",
+			"adopt_existing": false,
+			"routing_rules": [
+				{
+					"rule_id": "character_paths",
+					"match": {
+						"paths": [
+							"/Game/Characters/**",
+							"/ShooterCore/Characters/**",
+							"/Game/Effects/Materials/Cubes/**",
+							"/Game/Effects/Materials/FootSteps/**",
+							"/Game/Effects/Particles/Environmental/**",
+							"/Game/Effects/Particles/Footsteps/**",
+							"/Game/Effects/Particles/Impacts/**",
+							"/ShooterCore/Effects/Materials/Cubes/**",
+							"/ShooterCore/Effects/Materials/FootSteps/**",
+							"/ShooterCore/Effects/Particles/Environmental/**",
+							"/ShooterCore/Effects/Particles/Footsteps/**",
+							"/ShooterCore/Effects/Particles/Impacts/**"
+						]
+					},
+					"priority": 170
+				},
+				{
+					"rule_id": "weapon_character_animation_montages",
+					"match": {
+						"paths": [
+							"/ShooterCore/Weapons/*/Animations/**"
+						],
+						"name_patterns": [
+							"AM_MM_*"
+						]
+					},
+					"priority": 175
+				},
+				{
+					"rule_id": "character_asset_classes",
+					"match": {
+						"classes": [
+							"SkeletalMesh",
+							"Skeleton",
+							"PhysicsAsset",
+							"AnimMontage",
+							"AnimSequence"
+						]
+					},
+					"priority": 82
+				}
+			],
+			"exclude_rules": [],
+			"dependency_policy": {
+				"hard_references": "IncludeOrRoute",
+				"soft_references": "Review",
+				"external_plugin_references": "DeclareDependency",
+				"engine_content_references": "Allow",
+				"developer_content_references": "Block"
+			},
+			"plugin_dependencies": [
+				"Niagara"
+			],
+			"generated_assets": {
+				"game_feature_data": false
+			}
+		},
+		{
+			"name": "LyraWeaponAssets",
+			"kind": "Content",
+			"target_root": "AssetPlugins",
+			"adopt_existing": false,
+			"routing_rules": [
+				{
+					"rule_id": "weapon_equipment_paths",
+					"match": {
+						"paths": [
+							"/Game/Weapons/**",
+							"/Game/Equipment/**",
+							"/ShooterCore/Weapons/**",
+							"/ShooterCore/Equipment/**",
+							"/Game/Effects/Materials/PickUp/**",
+							"/Game/Effects/Physics/**",
+							"/ShooterCore/Effects/Physics/**",
+							"/ShooterCore/Items/**"
+						]
+					},
+					"priority": 165
+				},
+				{
+					"rule_id": "weapon_visual_classes",
+					"match": {
+						"classes": [
+							"StaticMesh",
+							"SkeletalMesh"
+						]
+					},
+					"priority": 65
+				}
+			],
+			"exclude_rules": [],
+			"dependency_policy": {
+				"hard_references": "IncludeOrRoute",
+				"soft_references": "Review",
+				"external_plugin_references": "DeclareDependency",
+				"engine_content_references": "Allow",
+				"developer_content_references": "Block"
+			},
+			"plugin_dependencies": [
+				"Niagara"
+			],
+			"generated_assets": {
+				"game_feature_data": false
+			}
+		},
+		{
+			"name": "LyraMapAssets",
+			"kind": "Content",
+			"target_root": "AssetPlugins",
+			"adopt_existing": false,
+			"routing_rules": [
+				{
+					"rule_id": "map_visual_paths",
+					"match": {
+						"paths": [
+							"/Game/Maps/**",
+							"/ShooterCore/Maps/**",
+							"/ShooterCore/System/DefaultEditorMap/**",
+							"/ShooterCore/System/FrontEnd/Maps/**",
+							"/ShooterCore/System/TransitionMap",
+							"/Game/Tools/**"
+						],
+						"classes": [
+							"StaticMesh",
+							"Material",
+							"MaterialInstanceConstant",
+							"MaterialFunction",
+							"Texture2D",
+							"NiagaraSystem",
+							"SoundWave"
+						]
+					},
+					"priority": 160
+				},
+				{
+					"rule_id": "map_support_paths",
+					"match": {
+						"paths": [
+							"/Game/Maps/**",
+							"/ShooterCore/Maps/**",
+							"/Game/Tools/**"
+						]
+					},
+					"priority": 120
+				}
+			],
+			"exclude_rules": [],
+			"dependency_policy": {
+				"hard_references": "IncludeOrRoute",
+				"soft_references": "Review",
+				"external_plugin_references": "DeclareDependency",
+				"engine_content_references": "Allow",
+				"developer_content_references": "Block"
+			},
+			"plugin_dependencies": [
+				"Niagara"
+			],
+			"generated_assets": {
+				"game_feature_data": false
+			}
+		},
+		{
+			"name": "LyraVfxAssets",
+			"kind": "Content",
+			"target_root": "AssetPlugins",
+			"adopt_existing": false,
+			"routing_rules": [
+				{
+					"rule_id": "vfx_paths",
+					"match": {
+						"paths": [
+							"/Game/Effects/**",
+							"/ShooterCore/Effects/**"
+						]
+					},
+					"priority": 150
+				},
+				{
+					"rule_id": "vfx_classes",
+					"match": {
+						"classes": [
+							"NiagaraSystem",
+							"NiagaraEmitter"
+						]
+					},
+					"priority": 75
+				}
+			],
+			"exclude_rules": [],
+			"dependency_policy": {
+				"hard_references": "IncludeOrRoute",
+				"soft_references": "Review",
+				"external_plugin_references": "DeclareDependency",
+				"engine_content_references": "Allow",
+				"developer_content_references": "Block"
+			},
+			"plugin_dependencies": [
+				"Niagara"
+			],
+			"generated_assets": {
+				"game_feature_data": false
+			}
+		},
+		{
+			"name": "LyraAudioAssets",
+			"kind": "Content",
+			"target_root": "AssetPlugins",
+			"adopt_existing": false,
+			"routing_rules": [
+				{
+					"rule_id": "audio_paths",
+					"match": {
+						"paths": [
+							"/Game/Audio/**",
+							"/ShooterCore/Audio/**"
+						]
+					},
+					"priority": 145
+				},
+				{
+					"rule_id": "audio_classes",
+					"match": {
+						"classes": [
+							"MetaSoundSource",
+							"MetaSoundPatch",
+							"SoundWave",
+							"SoundAttenuation",
+							"SoundClass",
+							"SoundConcurrency",
+							"SoundSubmix",
+							"AudioImpulseResponse"
+						]
+					},
+					"priority": 75
+				}
+			],
+			"exclude_rules": [],
+			"dependency_policy": {
+				"hard_references": "IncludeOrRoute",
+				"soft_references": "Review",
+				"external_plugin_references": "DeclareDependency",
+				"engine_content_references": "Allow",
+				"developer_content_references": "Block"
+			},
+			"plugin_dependencies": [
+				"Metasound",
+				"AudioModulation"
+			],
+			"generated_assets": {
+				"game_feature_data": false
+			}
+		},
+		{
+			"name": "LyraMaterialAssets",
+			"kind": "Content",
+			"target_root": "AssetPlugins",
+			"adopt_existing": false,
+			"routing_rules": [
+				{
+					"rule_id": "generic_material_texture_classes",
+					"match": {
+						"classes": [
+							"Material",
+							"MaterialInstanceConstant",
+							"MaterialFunction",
+							"Texture2D",
+							"TextureCube"
+						]
+					},
+					"priority": 50
+				}
+			],
+			"exclude_rules": [],
+			"dependency_policy": {
+				"hard_references": "IncludeOrRoute",
+				"soft_references": "Review",
+				"external_plugin_references": "DeclareDependency",
+				"engine_content_references": "Allow",
+				"developer_content_references": "Block"
+			},
+			"plugin_dependencies": [],
+			"generated_assets": {
+				"game_feature_data": false
+			}
+		}
+	]
+}
