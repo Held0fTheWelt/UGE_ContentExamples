@@ -336,6 +336,127 @@
 			"implementation_notes": "Rebuild blueprint, AI, input, gameplay ability, and team composition logic against the target gameplay architecture instead of copying legacy class-bound assets."
 		}
 	],
+	"blueprint_scaffold_rules": [
+		{
+			"rule_id": "map_assembly_blueprint_scaffold",
+			"match": {
+				"target_architectures": [
+					"MapAssembly"
+				]
+			},
+			"priority": 260,
+			"asset_kind": "Blueprint",
+			"target_plugin_root": "",
+			"target_mount": "/Game",
+			"target_folder": "Generated/APM/MapAssembly",
+			"parent_class": "/Script/Engine.Actor",
+			"name_template": "BP_{source_asset_name}_MapAssembly",
+			"overwrite_policy": "SkipExisting",
+			"implementation_notes": "Create a target-native map assembly shell in UGE; routed visual packs provide the content inputs, while old World and MapBuildDataRegistry assets remain excluded."
+		},
+		{
+			"rule_id": "ui_composition_blueprint_scaffold",
+			"match": {
+				"target_architectures": [
+					"UIComposition"
+				]
+			},
+			"priority": 240,
+			"asset_kind": "Blueprint",
+			"target_plugin_root": "Plugins/Core_Collection",
+			"target_mount": "/Core_Collection",
+			"target_folder": "Generated/APM/UI",
+			"parent_class": "/Script/UMG.UserWidget",
+			"name_template": "WBP_{source_asset_name}_Scaffold",
+			"overwrite_policy": "SkipExisting",
+			"implementation_notes": "Create a target-native UI shell in UGE and reconnect routed textures, fonts, materials, and frontend flow references during implementation."
+		},
+		{
+			"rule_id": "experience_composition_blueprint_scaffold",
+			"match": {
+				"target_architectures": [
+					"ExperienceComposition"
+				]
+			},
+			"priority": 230,
+			"asset_kind": "Blueprint",
+			"target_plugin_root": "Plugins/GameFeatures/GameFeature_ExperienceSystem",
+			"target_mount": "/GameFeature_ExperienceSystem",
+			"target_folder": "Generated/APM/Experience",
+			"parent_class": "/Script/Engine.PrimaryDataAsset",
+			"name_template": "DA_{source_asset_name}_ExperienceScaffold",
+			"overwrite_policy": "SkipExisting",
+			"implementation_notes": "Create a target-native experience data shell in UGE; implementation must map Lyra experience, pawn, input, and action-set wiring to UGE contracts."
+		},
+		{
+			"rule_id": "animation_composition_blueprint_scaffold",
+			"match": {
+				"target_architectures": [
+					"AnimationComposition"
+				]
+			},
+			"priority": 220,
+			"asset_kind": "Blueprint",
+			"target_plugin_root": "Plugins/GameFeatures/GameFeature_AnimationSystem",
+			"target_mount": "/GameFeature_AnimationSystem",
+			"target_folder": "Generated/APM/Animation",
+			"parent_class": "/Script/Engine.Actor",
+			"name_template": "BP_{source_asset_name}_AnimationScaffold",
+			"overwrite_policy": "SkipExisting",
+			"implementation_notes": "Create a target-native animation implementation shell in UGE; routed skeleton, mesh, montage, and weapon visual packs provide the reference inputs."
+		},
+		{
+			"rule_id": "equipment_composition_blueprint_scaffold",
+			"match": {
+				"target_architectures": [
+					"EquipmentComposition"
+				]
+			},
+			"priority": 210,
+			"asset_kind": "Blueprint",
+			"target_plugin_root": "Plugins/GameFeatures/GameFeature_EquipmentSystem",
+			"target_mount": "/GameFeature_EquipmentSystem",
+			"target_folder": "Generated/APM/Equipment",
+			"parent_class": "/Script/Engine.PrimaryDataAsset",
+			"name_template": "DA_{source_asset_name}_EquipmentScaffold",
+			"overwrite_policy": "SkipExisting",
+			"implementation_notes": "Create a target-native equipment data shell in UGE and bind weapon, pickup, inventory, and presentation references to routed content packs."
+		},
+		{
+			"rule_id": "data_composition_blueprint_scaffold",
+			"match": {
+				"target_architectures": [
+					"DataComposition"
+				]
+			},
+			"priority": 200,
+			"asset_kind": "Blueprint",
+			"target_plugin_root": "Plugins/Core_Collection",
+			"target_mount": "/Core_Collection",
+			"target_folder": "Generated/APM/Data",
+			"parent_class": "/Script/Engine.PrimaryDataAsset",
+			"name_template": "DA_{source_asset_name}_DataScaffold",
+			"overwrite_policy": "SkipExisting",
+			"implementation_notes": "Create a target-native data shell in UGE; implementation must translate old registries, tables, tags, materials, physics, and display data to target schemas."
+		},
+		{
+			"rule_id": "gameplay_composition_blueprint_scaffold",
+			"match": {
+				"target_architectures": [
+					"GameplayComposition"
+				]
+			},
+			"priority": 190,
+			"asset_kind": "Blueprint",
+			"target_plugin_root": "Plugins/Core_Collection",
+			"target_mount": "/Core_Collection",
+			"target_folder": "Generated/APM/Gameplay",
+			"parent_class": "/Script/Engine.Actor",
+			"name_template": "BP_{source_asset_name}_GameplayScaffold",
+			"overwrite_policy": "SkipExisting",
+			"implementation_notes": "Create a target-native gameplay shell in UGE; implementation must rebuild behavior, ability, input, and team logic against the new architecture."
+		}
+	],
 	"packs": [
 		{
 			"name": "LyraSharedVisualAssets",
