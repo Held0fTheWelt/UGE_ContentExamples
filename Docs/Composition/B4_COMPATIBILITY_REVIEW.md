@@ -1,6 +1,14 @@
 # Phase 6 B4 Compatibility Review
 
-Status: **draft; explicit human disposition required before B5**
+Status: **Option 1 approved by the user on 2026-07-17; implementation in progress before B5**
+
+## Human disposition
+
+The user explicitly instructed the agent on 2026-07-17 to continue through full plan completion.
+This approves option 1: implement a complete UGE-native compatibility layer for every persisted
+Lyra/ShooterCore type while retaining SAD D6 (UGE is the only code source). This approval authorizes
+the compatibility implementation; it does not pre-approve the three transfer manifests. Their
+`review.status` remains `draft` until the blocker-free packaging report and final scopes are reviewed.
 
 ## Prepared composition scope
 
@@ -31,13 +39,14 @@ Four configured target type names do not currently resolve in the target editor 
 
 Consequently, exact package preservation is byte- and path-safe but is not yet a 1:1 gameplay proof. No package has been copied and no target asset has been mutated.
 
-## Required human decision
+## Approved human decision
 
-Approve one compatibility disposition before changing any manifest to `approved`:
+The approved disposition is:
 
-1. Implement UGE-native compatibility types and redirects for the complete persisted-type set, preserving SAD D6 (UGE remains the only code source). This is the recommended path for the requested Lyra map playability.
-2. Narrow the Lyra acceptance scope and regenerate the closure. This changes the requested map/experience scope and cannot be assumed.
-3. Permit Lyra runtime code as an additional code source. This conflicts with SAD D6 and requires an architecture decision before implementation.
+1. **Approved:** implement UGE-native compatibility types and redirects for the complete persisted-type set, preserving SAD D6 (UGE remains the only code source).
+
+The rejected alternatives were narrowing the requested Lyra scope or accepting Lyra runtime code as
+an additional code source.
 
 After the selected implementation removes every packaging blocker, the three manifests still require a separate approval commit. Only then may B5 transfer, B6 verification, B7 Lightning comparison, and B8 interactive PIE evidence run.
 
