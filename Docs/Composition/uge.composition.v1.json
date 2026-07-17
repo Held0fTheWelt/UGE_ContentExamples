@@ -1200,11 +1200,11 @@
                                  }
                   },
     "review":  {
-                   "approved_by":  "",
+                   "approved_by":  "user",
                    "evidence_refs":  [
 
                                      ],
-                   "status":  "draft"
+                   "status":  "approved"
                },
     "schema":  "uge.composition.v1",
     "source_project":  {
@@ -1212,7 +1212,7 @@
                            "root":  "D:/UGE"
                        },
     "target_project":  {
-                           "git_commit":  "a38b8a90a7825b578408912331edf875a11fc025",
+                           "git_commit":  "47d5232",
                            "root":  "D:/UGE_ContentExamples"
                        },
     "transfer_plan":  [
