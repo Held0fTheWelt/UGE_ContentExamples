@@ -1,0 +1,20 @@
+{
+  "schema": "uge.composition.source_pin.v1",
+  "source_root": "E:/LyraStarterGame",
+  "version_control": "unversioned",
+  "engine_association": "5.4",
+  "uproject": {
+    "path": "E:/LyraStarterGame/LyraStarterGame.uproject",
+    "sha256": "7c4e5ed91ed3425543060feca4def8651a4e4a6202491d06828221a161c8a32e",
+    "size_bytes": 5479,
+    "last_write_utc": "2026-07-03T14:01:50.6147653Z"
+  },
+  "apm_snapshot": {
+    "path": "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-exact-source-snapshot.json",
+    "snapshot_hash": "0cfe0d3bd86299c17c70f761f15cd1e384e29782",
+    "asset_count": 7617,
+    "physical_payload_count": 12426,
+    "map_count": 10
+  },
+  "profile": "D:/TinyToolDevelopment/Git/Tests/Fixtures/AssetPluginMaker/ContentPackaging/lyra-5.4-shooter-preserve-to-uge-contentexamples.content_packaging.profile.v1.json"
+}

@@ -1,0 +1,8 @@
+{
+  "profileId": "ubi.mutation_apply",
+  "change": {
+    "assetPath": "/Game/Experiences/B_DefaultExperience",
+    "changeType": "set_cdo_property",
+    "parametersJson": "{\"property\":\"DefaultPawnData\",\"value\":\"/Game/Experiences/PawnData_Helicopter.PawnData_Helicopter\"}"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profileId": "ubi.mutation_apply",
+  "change": {
+    "assetPath": "/Game/Experiences/B_DefaultExperience",
+    "changeType": "set_cdo_property",
+    "parametersJson": "{\"property\":\"GameFeaturesToEnable\",\"value\":[\"GameFeature_AccoladeSystem\",\"GameFeature_AnimationSystem\",\"GameFeature_CosmeticsSystem\",\"GameFeature_EquipmentSystem\",\"GameFeature_ExperienceSystem\",\"GameFeature_FeedbackSystem\",\"GameFeature_HeroSystem\",\"GameFeature_HumanoidMovement\",\"GameFeature_Interact\",\"GameFeature_InteractionSystem\",\"GameFeature_InventorySystem\",\"GameFeature_PawnExtension\",\"GameFeature_PhysicalAwareness\",\"GameFeature_Tournament\"]}"
+  }
+}

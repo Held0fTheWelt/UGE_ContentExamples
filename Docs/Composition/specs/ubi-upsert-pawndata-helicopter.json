@@ -1,0 +1,8 @@
+{
+  "profileId": "ubi.mutation_apply",
+  "change": {
+    "assetPath": "/Game/Experiences/PawnData_Helicopter",
+    "changeType": "upsert_data_asset",
+    "parametersJson": "{\"classPath\":\"/Script/Core_System.PawnData_Core\",\"fields\":{\"PawnClass\":\"/Warfare_Assets/Entities/Helicopters/AH_Cobra/Blueprints/BP_AH_Cobra.BP_AH_Cobra_C\"}}"
+  }
+}

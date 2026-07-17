@@ -1,0 +1,1735 @@
+{
+    "inventory":  {
+                      "evidence_ref":  "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json",
+                      "mirror_candidates":  [
+                                                "Aircrafts",
+                                                "AssetLoader",
+                                                "AsyncMixin",
+                                                "CommonLoadingScreen",
+                                                "CommonUser",
+                                                "Controllers",
+                                                "Core_Collection",
+                                                "EditorManager",
+                                                "Elemental_Collection",
+                                                "EntityCoreEditor",
+                                                "EntityVisualEditor",
+                                                "GameFeature_AccoladeSystem",
+                                                "GameFeature_HumanoidMovement",
+                                                "GameFeature_Interact",
+                                                "GameFeature_PhysicalAwareness",
+                                                "GameplayMessageRouter",
+                                                "GameSettings",
+                                                "GameSubtitles",
+                                                "Helicopters",
+                                                "Humanoids",
+                                                "InputSystem",
+                                                "LoggingMacros",
+                                                "PocketWorlds",
+                                                "Ships",
+                                                "Vehicles"
+                                            ],
+                      "source":  {
+                                     "plugins":  [
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "AsyncMixin"
+                                                                     ],
+                                                         "name":  "AsyncMixin",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "CommonLoadingScreen",
+                                                                         "CommonStartupLoadingScreen"
+                                                                     ],
+                                                         "name":  "CommonLoadingScreen",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "CommonUser"
+                                                                     ],
+                                                         "name":  "CommonUser",
+                                                         "plugin_dependencies":  [
+                                                                                     "OnlineServices",
+                                                                                     "OnlineSubsystem",
+                                                                                     "OnlineSubsystemUtils"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameFeature_TournamentRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_Tournament",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameplayMessageNodes",
+                                                                         "GameplayMessageRuntime"
+                                                                     ],
+                                                         "name":  "GameplayMessageRouter",
+                                                         "plugin_dependencies":  [
+                                                                                     "GameplayTagsEditor"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameSettings"
+                                                                     ],
+                                                         "name":  "GameSettings",
+                                                         "plugin_dependencies":  [
+                                                                                     "CommonUI"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameSubtitles"
+                                                                     ],
+                                                         "name":  "GameSubtitles",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "EditorPlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "LoggingMacros"
+                                                                     ],
+                                                         "name":  "LoggingMacros",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "PocketWorlds"
+                                                                     ],
+                                                         "name":  "PocketWorlds",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+                                                                         "AssetLoader"
+                                                                     ],
+                                                         "name":  "AssetLoader",
+                                                         "plugin_dependencies":  [
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "EditorPlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+                                                                         "EditorManager"
+                                                                     ],
+                                                         "name":  "EditorManager",
+                                                         "plugin_dependencies":  [
+                                                                                     "EditorScriptingUtilities",
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  2,
+                                                         "modules":  [
+                                                                         "Elemental_Classes",
+                                                                         "Elemental_Common",
+                                                                         "Elemental_Data",
+                                                                         "Elemental_Editor",
+                                                                         "Elemental_Interfaces",
+                                                                         "Elemental_Logging",
+                                                                         "Elemental_MessageSystem",
+                                                                         "Elemental_Network",
+                                                                         "Elemental_Player",
+                                                                         "Elemental_Settings",
+                                                                         "Elemental_Structure",
+                                                                         "Elemental_Teams"
+                                                                     ],
+                                                         "name":  "Elemental_Collection",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "ChaosVehiclesPlugin",
+                                                                                     "CommonUI",
+                                                                                     "CommonUser",
+                                                                                     "EnhancedInput",
+                                                                                     "GameFeatures",
+                                                                                     "GameplayAbilities",
+                                                                                     "GameplayMessageRouter",
+                                                                                     "GameSubtitles",
+                                                                                     "LoggingMacros",
+                                                                                     "ModularGameplay",
+                                                                                     "ReplicationGraph",
+                                                                                     "SignificanceManager"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  2,
+                                                         "modules":  [
+                                                                         "InputSystem"
+                                                                     ],
+                                                         "name":  "InputSystem",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "EnhancedInput",
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0.1"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "Controllers"
+                                                                     ],
+                                                         "name":  "Controllers",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Elemental_Collection",
+                                                                                     "InputSystem",
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "Core_AbilitySystem",
+                                                                         "Core_Classes",
+                                                                         "Core_Collection_Editor",
+                                                                         "Core_Data",
+                                                                         "Core_Demo",
+                                                                         "Core_Development",
+                                                                         "Core_Effects",
+                                                                         "Core_Extras",
+                                                                         "Core_GameFeatures",
+                                                                         "Core_Interact",
+                                                                         "Core_Interfaces",
+                                                                         "Core_Logging",
+                                                                         "Core_Setup",
+                                                                         "Core_Structure",
+                                                                         "Core_System"
+                                                                     ],
+                                                         "name":  "Core_Collection",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "AudioModulation",
+                                                                                     "ChaosVehiclesPlugin",
+                                                                                     "Elemental_Collection",
+                                                                                     "GameplayMessageRouter",
+                                                                                     "GameSettings",
+                                                                                     "LoggingMacros",
+                                                                                     "ModularGameplay",
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "GameFeature_AccoladeSystemRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_AccoladeSystem",
+                                                         "plugin_dependencies":  [
+                                                                                     "AsyncMixin",
+                                                                                     "CommonUI",
+                                                                                     "DataRegistry",
+                                                                                     "Elemental_Collection",
+                                                                                     "GameFeatures",
+                                                                                     "GameplayMessageRouter"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "GameFeature_AnimationSystemRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_AnimationSystem",
+                                                         "plugin_dependencies":  [
+                                                                                     "Elemental_Collection",
+                                                                                     "GameFeatures",
+                                                                                     "ModularGameplay"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "GameFeature_CosmeticsSystemRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_CosmeticsSystem",
+                                                         "plugin_dependencies":  [
+                                                                                     "Elemental_Collection",
+                                                                                     "GameFeatures"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "GameFeature_EquipmentSystemRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_EquipmentSystem",
+                                                         "plugin_dependencies":  [
+                                                                                     "Elemental_Collection",
+                                                                                     "GameFeatures",
+                                                                                     "GameplayAbilities",
+                                                                                     "GameplayMessageRouter",
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "GameFeature_HeroSystemRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_HeroSystem",
+                                                         "plugin_dependencies":  [
+                                                                                     "Elemental_Collection",
+                                                                                     "GameFeatures",
+                                                                                     "ModularGameplay"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "GameFeature_HumanoidMovementRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_HumanoidMovement",
+                                                         "plugin_dependencies":  [
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Aircrafts"
+                                                                     ],
+                                                         "name":  "Aircrafts",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection",
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "GameFeature_ExperienceSystemRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_ExperienceSystem",
+                                                         "plugin_dependencies":  [
+                                                                                     "CommonLoadingScreen",
+                                                                                     "CommonUser",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection",
+                                                                                     "GameFeatures",
+                                                                                     "ModularGameplay"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "GameFeature_FeedbackSystemRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_FeedbackSystem",
+                                                         "plugin_dependencies":  [
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection",
+                                                                                     "ModularGameplay"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "GameFeature_InteractRuntime",
+                                                                         "GameFeature_InteractSetup"
+                                                                     ],
+                                                         "name":  "GameFeature_Interact",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "GameFeature_InteractionSystemRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_InteractionSystem",
+                                                         "plugin_dependencies":  [
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection",
+                                                                                     "GameFeatures",
+                                                                                     "ModularGameplay"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "GameFeature_InventorySystemRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_InventorySystem",
+                                                         "plugin_dependencies":  [
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection",
+                                                                                     "GameFeatures",
+                                                                                     "GameplayAbilities",
+                                                                                     "GameplayMessageRouter",
+                                                                                     "ModularGameplay"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "GameFeature_PawnExtensionRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_PawnExtension",
+                                                         "plugin_dependencies":  [
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection",
+                                                                                     "GameplayAbilities",
+                                                                                     "ModularGameplay"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "GameFeature_PhysicalAwarenessRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_PhysicalAwareness",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Helicopters"
+                                                                     ],
+                                                         "name":  "Helicopters",
+                                                         "plugin_dependencies":  [
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Humanoids"
+                                                                     ],
+                                                         "name":  "Humanoids",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Ships"
+                                                                     ],
+                                                         "name":  "Ships",
+                                                         "plugin_dependencies":  [
+                                                                                     "Core_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Vehicles",
+                                                                         "VehiclesEditor"
+                                                                     ],
+                                                         "name":  "Vehicles",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "ChaosVehiclesPlugin",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "EditorPlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  5,
+                                                         "modules":  [
+                                                                         "EntityCoreEditor",
+                                                                         "EntityCoreRuntime"
+                                                                     ],
+                                                         "name":  "EntityCoreEditor",
+                                                         "plugin_dependencies":  [
+                                                                                     "Aircrafts",
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "EditorManager",
+                                                                                     "Elemental_Collection",
+                                                                                     "Helicopters",
+                                                                                     "LoggingMacros",
+                                                                                     "Warfare"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "EditorPlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  6,
+                                                         "modules":  [
+                                                                         "EntityVisualEditor"
+                                                                     ],
+                                                         "name":  "EntityVisualEditor",
+                                                         "plugin_dependencies":  [
+                                                                                     "Aircrafts",
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "EditorManager",
+                                                                                     "Elemental_Collection",
+                                                                                     "EntityCoreEditor",
+                                                                                     "Helicopters",
+                                                                                     "LoggingMacros",
+                                                                                     "Warfare"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     }
+                                                 ],
+                                     "project_file":  "UGE.uproject",
+                                     "project_root":  "D:/UGE"
+                                 },
+                      "target":  {
+                                     "plugins":  [
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "AsyncMixin"
+                                                                     ],
+                                                         "name":  "AsyncMixin",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "CommonLoadingScreen",
+                                                                         "CommonStartupLoadingScreen"
+                                                                     ],
+                                                         "name":  "CommonLoadingScreen",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "CommonUser"
+                                                                     ],
+                                                         "name":  "CommonUser",
+                                                         "plugin_dependencies":  [
+                                                                                     "OnlineServices",
+                                                                                     "OnlineSubsystem",
+                                                                                     "OnlineSubsystemUtils"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameFeature_AccoladeSystemRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_AccoladeSystem",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameplayMessageNodes",
+                                                                         "GameplayMessageRuntime"
+                                                                     ],
+                                                         "name":  "GameplayMessageRouter",
+                                                         "plugin_dependencies":  [
+                                                                                     "GameplayTagsEditor"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameSettings"
+                                                                     ],
+                                                         "name":  "GameSettings",
+                                                         "plugin_dependencies":  [
+                                                                                     "CommonUI"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameSubtitles"
+                                                                     ],
+                                                         "name":  "GameSubtitles",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "SamplePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GlobalConfigFiles"
+                                                                     ],
+                                                         "name":  "GlobalConfigFiles",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "HumanoidsContent",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "EditorPlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "LoggingMacros"
+                                                                     ],
+                                                         "name":  "LoggingMacros",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraAudioAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "AudioModulation",
+                                                                                     "Metasound"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraMapAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraSharedVisualAssets",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraSystemAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraUIAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "CommonUI"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "PocketWorlds"
+                                                                     ],
+                                                         "name":  "PocketWorlds",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "VehiclesContent",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+                                                                         "AssetLoader"
+                                                                     ],
+                                                         "name":  "AssetLoader",
+                                                         "plugin_dependencies":  [
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "EditorPlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+                                                                         "EditorManager"
+                                                                     ],
+                                                         "name":  "EditorManager",
+                                                         "plugin_dependencies":  [
+                                                                                     "EditorScriptingUtilities",
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraExampleContent",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraSharedVisualAssets"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraMaterialAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraUIAssets"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraVfxAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraSharedVisualAssets",
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraWeaponAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraSharedVisualAssets",
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  2,
+                                                         "modules":  [
+                                                                         "Elemental_Classes",
+                                                                         "Elemental_Common",
+                                                                         "Elemental_Data",
+                                                                         "Elemental_Editor",
+                                                                         "Elemental_Interfaces",
+                                                                         "Elemental_Logging",
+                                                                         "Elemental_MessageSystem",
+                                                                         "Elemental_Network",
+                                                                         "Elemental_Player",
+                                                                         "Elemental_Settings",
+                                                                         "Elemental_Structure",
+                                                                         "Elemental_Teams"
+                                                                     ],
+                                                         "name":  "Elemental_Collection",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "ChaosVehiclesPlugin",
+                                                                                     "CommonUI",
+                                                                                     "CommonUser",
+                                                                                     "EnhancedInput",
+                                                                                     "GameFeatures",
+                                                                                     "GameplayAbilities",
+                                                                                     "GameplayMessageRouter",
+                                                                                     "GameSubtitles",
+                                                                                     "LoggingMacros",
+                                                                                     "ModularGameplay",
+                                                                                     "ReplicationGraph",
+                                                                                     "SignificanceManager"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  2,
+                                                         "modules":  [
+                                                                         "InputSystem"
+                                                                     ],
+                                                         "name":  "InputSystem",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "EnhancedInput",
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0.1"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  2,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraCharacterAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraSharedVisualAssets",
+                                                                                     "LyraVfxAssets",
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "Controllers"
+                                                                     ],
+                                                         "name":  "Controllers",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Elemental_Collection",
+                                                                                     "InputSystem",
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "Core_AbilitySystem",
+                                                                         "Core_Classes",
+                                                                         "Core_Collection_Editor",
+                                                                         "Core_Data",
+                                                                         "Core_Demo",
+                                                                         "Core_Development",
+                                                                         "Core_Effects",
+                                                                         "Core_Extras",
+                                                                         "Core_GameFeatures",
+                                                                         "Core_Interact",
+                                                                         "Core_Interfaces",
+                                                                         "Core_Logging",
+                                                                         "Core_Setup",
+                                                                         "Core_Structure",
+                                                                         "Core_System"
+                                                                     ],
+                                                         "name":  "Core_Collection",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "AudioModulation",
+                                                                                     "ChaosVehiclesPlugin",
+                                                                                     "Elemental_Collection",
+                                                                                     "GameplayMessageRouter",
+                                                                                     "GameSettings",
+                                                                                     "LoggingMacros",
+                                                                                     "ModularGameplay",
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "GameFeature_HumanoidMovementRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_HumanoidMovement",
+                                                         "plugin_dependencies":  [
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Aircrafts"
+                                                                     ],
+                                                         "name":  "Aircrafts",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection",
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "GameFeature_InteractRuntime",
+                                                                         "GameFeature_InteractSetup"
+                                                                     ],
+                                                         "name":  "GameFeature_Interact",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "GameFeature_PhysicalAwarenessRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_PhysicalAwareness",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Helicopters"
+                                                                     ],
+                                                         "name":  "Helicopters",
+                                                         "plugin_dependencies":  [
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Humanoids"
+                                                                     ],
+                                                         "name":  "Humanoids",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Ships"
+                                                                     ],
+                                                         "name":  "Ships",
+                                                         "plugin_dependencies":  [
+                                                                                     "Core_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Vehicles",
+                                                                         "VehiclesEditor"
+                                                                     ],
+                                                         "name":  "Vehicles",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "ChaosVehiclesPlugin",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "EditorPlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  5,
+                                                         "modules":  [
+                                                                         "EntityCoreEditor",
+                                                                         "EntityCoreRuntime"
+                                                                     ],
+                                                         "name":  "EntityCoreEditor",
+                                                         "plugin_dependencies":  [
+                                                                                     "Aircrafts",
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "EditorManager",
+                                                                                     "Elemental_Collection",
+                                                                                     "Helicopters",
+                                                                                     "LoggingMacros",
+                                                                                     "Warfare"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "EditorPlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  6,
+                                                         "modules":  [
+                                                                         "EntityVisualEditor"
+                                                                     ],
+                                                         "name":  "EntityVisualEditor",
+                                                         "plugin_dependencies":  [
+                                                                                     "Aircrafts",
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "EditorManager",
+                                                                                     "Elemental_Collection",
+                                                                                     "EntityCoreEditor",
+                                                                                     "Helicopters",
+                                                                                     "LoggingMacros",
+                                                                                     "Warfare"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     }
+                                                 ],
+                                     "project_file":  "UGE_ContentExamples.uproject",
+                                     "project_root":  "D:/UGE_ContentExamples"
+                                 }
+                  },
+    "review":  {
+                   "approved_by":  "",
+                   "evidence_refs":  [
+
+                                     ],
+                   "status":  "draft"
+               },
+    "schema":  "uge.composition.v1",
+    "source_project":  {
+                           "git_commit":  "b1b276321d822e2e4c89f458072cc16b531ed31b",
+                           "root":  "D:/UGE"
+                       },
+    "target_project":  {
+                           "git_commit":  "a38b8a90a7825b578408912331edf875a11fc025",
+                           "root":  "D:/UGE_ContentExamples"
+                       },
+    "transfer_plan":  [
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#AsyncMixin"
+                                                ],
+                              "order":  0,
+                              "plugin_name":  "AsyncMixin",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#CommonLoadingScreen"
+                                                ],
+                              "order":  1,
+                              "plugin_name":  "CommonLoadingScreen",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#CommonUser"
+                                                ],
+                              "order":  2,
+                              "plugin_name":  "CommonUser",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_Tournament"
+                                                ],
+                              "order":  3,
+                              "plugin_name":  "GameFeature_Tournament",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameplayMessageRouter"
+                                                ],
+                              "order":  4,
+                              "plugin_name":  "GameplayMessageRouter",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameSettings"
+                                                ],
+                              "order":  5,
+                              "plugin_name":  "GameSettings",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameSubtitles"
+                                                ],
+                              "order":  6,
+                              "plugin_name":  "GameSubtitles",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#LoggingMacros"
+                                                ],
+                              "order":  7,
+                              "plugin_name":  "LoggingMacros",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#PocketWorlds"
+                                                ],
+                              "order":  8,
+                              "plugin_name":  "PocketWorlds",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "LoggingMacros"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#AssetLoader"
+                                                ],
+                              "order":  9,
+                              "plugin_name":  "AssetLoader",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "LoggingMacros"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#EditorManager"
+                                                ],
+                              "order":  10,
+                              "plugin_name":  "EditorManager",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "CommonUser",
+                                                 "GameplayMessageRouter",
+                                                 "GameSubtitles",
+                                                 "LoggingMacros",
+                                                 "AssetLoader"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#Elemental_Collection"
+                                                ],
+                              "order":  11,
+                              "plugin_name":  "Elemental_Collection",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "LoggingMacros",
+                                                 "AssetLoader"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#InputSystem"
+                                                ],
+                              "order":  12,
+                              "plugin_name":  "InputSystem",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "LoggingMacros",
+                                                 "AssetLoader",
+                                                 "Elemental_Collection",
+                                                 "InputSystem"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#Controllers"
+                                                ],
+                              "order":  13,
+                              "plugin_name":  "Controllers",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "GameplayMessageRouter",
+                                                 "GameSettings",
+                                                 "LoggingMacros",
+                                                 "AssetLoader",
+                                                 "Elemental_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#Core_Collection"
+                                                ],
+                              "order":  14,
+                              "plugin_name":  "Core_Collection",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "AsyncMixin",
+                                                 "GameplayMessageRouter",
+                                                 "Elemental_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_AccoladeSystem"
+                                                ],
+                              "order":  15,
+                              "plugin_name":  "GameFeature_AccoladeSystem",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "Elemental_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_AnimationSystem"
+                                                ],
+                              "order":  16,
+                              "plugin_name":  "GameFeature_AnimationSystem",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "Elemental_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_CosmeticsSystem"
+                                                ],
+                              "order":  17,
+                              "plugin_name":  "GameFeature_CosmeticsSystem",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "GameplayMessageRouter",
+                                                 "Elemental_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_EquipmentSystem"
+                                                ],
+                              "order":  18,
+                              "plugin_name":  "GameFeature_EquipmentSystem",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "Elemental_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_HeroSystem"
+                                                ],
+                              "order":  19,
+                              "plugin_name":  "GameFeature_HeroSystem",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "Elemental_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_HumanoidMovement"
+                                                ],
+                              "order":  20,
+                              "plugin_name":  "GameFeature_HumanoidMovement",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "LoggingMacros",
+                                                 "AssetLoader",
+                                                 "Elemental_Collection",
+                                                 "Core_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#Aircrafts"
+                                                ],
+                              "order":  21,
+                              "plugin_name":  "Aircrafts",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "CommonLoadingScreen",
+                                                 "CommonUser",
+                                                 "Elemental_Collection",
+                                                 "Core_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_ExperienceSystem"
+                                                ],
+                              "order":  22,
+                              "plugin_name":  "GameFeature_ExperienceSystem",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "Elemental_Collection",
+                                                 "Core_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_FeedbackSystem"
+                                                ],
+                              "order":  23,
+                              "plugin_name":  "GameFeature_FeedbackSystem",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "AssetLoader",
+                                                 "Elemental_Collection",
+                                                 "Core_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_Interact"
+                                                ],
+                              "order":  24,
+                              "plugin_name":  "GameFeature_Interact",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "Elemental_Collection",
+                                                 "Core_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_InteractionSystem"
+                                                ],
+                              "order":  25,
+                              "plugin_name":  "GameFeature_InteractionSystem",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "GameplayMessageRouter",
+                                                 "Elemental_Collection",
+                                                 "Core_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_InventorySystem"
+                                                ],
+                              "order":  26,
+                              "plugin_name":  "GameFeature_InventorySystem",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "Elemental_Collection",
+                                                 "Core_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_PawnExtension"
+                                                ],
+                              "order":  27,
+                              "plugin_name":  "GameFeature_PawnExtension",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "AssetLoader",
+                                                 "Elemental_Collection",
+                                                 "Core_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#GameFeature_PhysicalAwareness"
+                                                ],
+                              "order":  28,
+                              "plugin_name":  "GameFeature_PhysicalAwareness",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "Elemental_Collection",
+                                                 "Core_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#Helicopters"
+                                                ],
+                              "order":  29,
+                              "plugin_name":  "Helicopters",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "AssetLoader",
+                                                 "Elemental_Collection",
+                                                 "Core_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#Humanoids"
+                                                ],
+                              "order":  30,
+                              "plugin_name":  "Humanoids",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "Core_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#Ships"
+                                                ],
+                              "order":  31,
+                              "plugin_name":  "Ships",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "AssetLoader",
+                                                 "Elemental_Collection",
+                                                 "Core_Collection"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#Vehicles"
+                                                ],
+                              "order":  32,
+                              "plugin_name":  "Vehicles",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "LoggingMacros",
+                                                 "AssetLoader",
+                                                 "EditorManager",
+                                                 "Elemental_Collection",
+                                                 "Core_Collection",
+                                                 "Aircrafts",
+                                                 "Helicopters"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#EntityCoreEditor"
+                                                ],
+                              "order":  33,
+                              "plugin_name":  "EntityCoreEditor",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "LoggingMacros",
+                                                 "AssetLoader",
+                                                 "EditorManager",
+                                                 "Elemental_Collection",
+                                                 "Core_Collection",
+                                                 "Aircrafts",
+                                                 "Helicopters",
+                                                 "EntityCoreEditor"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json#EntityVisualEditor"
+                                                ],
+                              "order":  34,
+                              "plugin_name":  "EntityVisualEditor",
+                              "skip_reason":  ""
+                          }
+                      ],
+    "variant_axes":  {
+                         "lightning":  "without",
+                         "tuning_profile":  "default"
+                     },
+    "verification":  {
+                         "boot_checks":  {
+                                             "transfer_complete":  "",
+                                             "modules_load":  "",
+                                             "references_complete":  "/Game",
+                                             "experience_resolves":  "/Game/Experiences/B_DefaultExperience.B_DefaultExperience_C",
+                                             "lightning_axis_consistent":  ""
+                                         },
+                         "frame_ms_budget":  16.699999999999999,
+                         "startup_seconds_max":  30
+                     },
+    "wiring_plan":  [
+                        {
+                            "chapter_id":  "experiences",
+                            "construction_ready":  true,
+                            "evidence_refs":  [
+                                                  "D:/UGE_ContentExamples/Saved/PioComposition/inventories/uge-vs-ce.json",
+                                                  "D:/UGE/Saved/UnrealIntegrationIntelligence/evidence/runs/2026-07-16_191324_300000/manifest.json"
+                                              ],
+                            "assets":  [
+                                           {
+                                               "kind":  "blueprint_scaffold",
+                                               "name":  "B_DefaultExperience",
+                                               "spec_ref":  "D:/UGE_ContentExamples/Docs/Composition/specs/apm-plan-experiences.json"
+                                           },
+                                           {
+                                               "kind":  "data_asset",
+                                               "name":  "PawnData_Helicopter",
+                                               "spec_ref":  "D:/UGE_ContentExamples/Docs/Composition/specs/ubi-upsert-pawndata-helicopter.json"
+                                           },
+                                           {
+                                               "kind":  "blueprint_mutation",
+                                               "name":  "B_DefaultExperience_PawnData",
+                                               "spec_ref":  "D:/UGE_ContentExamples/Docs/Composition/specs/ubi-cdo-experience-pawndata.json"
+                                           },
+                                           {
+                                               "kind":  "blueprint_mutation",
+                                               "name":  "B_DefaultExperience_GameFeatures",
+                                               "spec_ref":  "D:/UGE_ContentExamples/Docs/Composition/specs/ubi-cdo-experience-gamefeatures.json"
+                                           }
+                                       ]
+                        }
+                    ]
+}

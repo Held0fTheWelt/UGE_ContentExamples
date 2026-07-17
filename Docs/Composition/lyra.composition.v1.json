@@ -1,0 +1,1953 @@
+{
+    "inventory":  {
+                      "evidence_ref":  "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json",
+                      "mirror_candidates":  [
+                                                "AsyncMixin",
+                                                "CommonLoadingScreen",
+                                                "CommonUser",
+                                                "GameplayMessageRouter",
+                                                "GameSettings",
+                                                "GameSubtitles",
+                                                "PocketWorlds"
+                                            ],
+                      "source":  {
+                                     "plugins":  [
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "AssetLoaderStudio",
+                                                                         "AssetLoaderStudioEditor"
+                                                                     ],
+                                                         "name":  "AssetLoaderStudio",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "AssetPluginMakerDeveloper",
+                                                                         "AssetPluginMakerEditor",
+                                                                         "AssetPluginMakerRuntime"
+                                                                     ],
+                                                         "name":  "AssetPluginMaker",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "2.0.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "AsyncMixin"
+                                                                     ],
+                                                         "name":  "AsyncMixin",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "AsyncSplineBuilder",
+                                                                         "AsyncSplineBuilderEditor"
+                                                                     ],
+                                                         "name":  "AsyncSplineBuilder",
+                                                         "plugin_dependencies":  [
+                                                                                     "ProceduralMeshComponent"
+                                                                                 ],
+                                                         "version":  "1.1.2"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "BestPracticesJournalDeveloperTool",
+                                                                         "BestPracticesJournalEditor",
+                                                                         "BestPracticesJournalRuntime"
+                                                                     ],
+                                                         "name":  "BestPracticesJournal",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "CodeCopyrightEditor"
+                                                                     ],
+                                                         "name":  "CodeCopyrightEditor",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0.2"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "CommonLoadingScreen",
+                                                                         "CommonStartupLoadingScreen"
+                                                                     ],
+                                                         "name":  "CommonLoadingScreen",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "CommonUser"
+                                                                     ],
+                                                         "name":  "CommonUser",
+                                                         "plugin_dependencies":  [
+                                                                                     "OnlineServices",
+                                                                                     "OnlineSubsystem",
+                                                                                     "OnlineSubsystemUtils"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "EditorExtensionBase",
+                                                                         "EditorExtensionRuntimeBase"
+                                                                     ],
+                                                         "name":  "EditorExtensionBase",
+                                                         "plugin_dependencies":  [
+                                                                                     "EditorScriptingUtilities"
+                                                                                 ],
+                                                         "version":  "1.0.1"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameFeaturedClasses"
+                                                                     ],
+                                                         "name":  "GameFeaturedClasses",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0.1"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameplayMessageNodes",
+                                                                         "GameplayMessageRuntime"
+                                                                     ],
+                                                         "name":  "GameplayMessageRouter",
+                                                         "plugin_dependencies":  [
+                                                                                     "GameplayTagsEditor"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameSettings"
+                                                                     ],
+                                                         "name":  "GameSettings",
+                                                         "plugin_dependencies":  [
+                                                                                     "CommonUI"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameSubtitles"
+                                                                     ],
+                                                         "name":  "GameSubtitles",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GeoProviderStoreCdb",
+                                                                         "GeoProviderStoreDeveloper",
+                                                                         "GeoProviderStoreEditor",
+                                                                         "GeoProviderStoreGis",
+                                                                         "GeoProviderStoreGoogle",
+                                                                         "GeoProviderStoreOsm",
+                                                                         "GeoProviderStoreOverture",
+                                                                         "GeoProviderStoreRuntime"
+                                                                     ],
+                                                         "name":  "GeoProviderStore",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "InternalIndexService",
+                                                                         "InternalIndexServiceEditor",
+                                                                         "InternalIndexServiceInterface"
+                                                                     ],
+                                                         "name":  "InternalIndexService",
+                                                         "plugin_dependencies":  [
+                                                                                     "SQLiteCore"
+                                                                                 ],
+                                                         "version":  "1.0.6"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "LightningCore"
+                                                                     ],
+                                                         "name":  "LightningCore",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "LightweightDummyActorSystem",
+                                                                         "LightweightDummyActorSystemDeveloper",
+                                                                         "LightweightDummyActorSystemEditor"
+                                                                     ],
+                                                         "name":  "LightweightDummyActorSystem",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "LightweightEditorMode"
+                                                                     ],
+                                                         "name":  "LightweightEditorMode",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0.3"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "LLMStore",
+                                                                         "LLMStoreEditor",
+                                                                         "LLMStoreInterface"
+                                                                     ],
+                                                         "name":  "LLMStore",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "LogLevelEditor"
+                                                                     ],
+                                                         "name":  "LogLevelEditor",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.1.4"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraExampleContent",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "LyraExtTool"
+                                                                     ],
+                                                         "name":  "LyraExtTool",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "ModularGameplayActors"
+                                                                     ],
+                                                         "name":  "ModularGameplayActors",
+                                                         "plugin_dependencies":  [
+                                                                                     "ModularGameplay"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "NamingConventionUtility"
+                                                                     ],
+                                                         "name":  "NamingConventionUtility",
+                                                         "plugin_dependencies":  [
+                                                                                     "EditorScriptingUtilities",
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "1.0.3"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "PerformancePresetWizard",
+                                                                         "PerformancePresetWizardEditor"
+                                                                     ],
+                                                         "name":  "PerformancePresetWizard",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.1.2"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "PocketWorlds"
+                                                                     ],
+                                                         "name":  "PocketWorlds",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "ProceduralGeneratedStructures"
+                                                                     ],
+                                                         "name":  "ProceduralGeneratedStructures",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0.2"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "ProjectDesignAssistant",
+                                                                         "ProjectDesignAssistantEditor",
+                                                                         "ProjectDesignAssistantInterface"
+                                                                     ],
+                                                         "name":  "ProjectDesignAssistant",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "ProjectRestructureService",
+                                                                         "ProjectRestructureServiceEditor",
+                                                                         "ProjectRestructureServiceInterface"
+                                                                     ],
+                                                         "name":  "ProjectRestructureService",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "SmartContentDiet",
+                                                                         "SmartContentDietInterface"
+                                                                     ],
+                                                         "name":  "SmartContentDiet",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0.4"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "SmartDocumentationAssistant",
+                                                                         "SmartDocumentationAssistantEditor"
+                                                                     ],
+                                                         "name":  "SmartDocumentationAssistant",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "UnifiedMcpServerEditor",
+                                                                         "UnifiedMcpServerInterface"
+                                                                     ],
+                                                         "name":  "UnifiedMcpServer",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0.8"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "UBICommandlet",
+                                                                         "UBICore",
+                                                                         "UBIEditor",
+                                                                         "UBISemantics"
+                                                                     ],
+                                                         "name":  "UnrealBlueprintIntegrator",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.2.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "UnrealCapabilityMesh",
+                                                                         "UnrealCapabilityMeshDeveloper",
+                                                                         "UnrealCapabilityMeshEditor"
+                                                                     ],
+                                                         "name":  "UnrealCapabilityMesh",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0.5"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "UnrealCodeIntegratorDeveloper",
+                                                                         "UnrealCodeIntegratorEditor",
+                                                                         "UnrealCodeIntegratorRuntime"
+                                                                     ],
+                                                         "name":  "UnrealCodeIntegrator",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "UnrealIntegrationIntelligenceDeveloper",
+                                                                         "UnrealIntegrationIntelligenceEditor",
+                                                                         "UnrealIntegrationIntelligenceInterface",
+                                                                         "UnrealIntegrationIntelligenceRuntime"
+                                                                     ],
+                                                         "name":  "UnrealIntegrationIntelligence",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "VisualFidelityDirectorDeveloper",
+                                                                         "VisualFidelityDirectorEditor",
+                                                                         "VisualFidelityDirectorRuntime"
+                                                                     ],
+                                                         "name":  "VisualFidelityDirector",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+                                                                         "CommonGame"
+                                                                     ],
+                                                         "name":  "CommonGame",
+                                                         "plugin_dependencies":  [
+                                                                                     "CommonUI",
+                                                                                     "CommonUser",
+                                                                                     "ModularGameplayActors",
+                                                                                     "OnlineFramework"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+                                                                         "InternalIndexServiceLLMStoreBridge"
+                                                                     ],
+                                                         "name":  "InternalIndexServiceLLMStoreBridge",
+                                                         "plugin_dependencies":  [
+                                                                                     "InternalIndexService",
+                                                                                     "LLMStore"
+                                                                                 ],
+                                                         "version":  "1.0.1"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+                                                                         "ProjectIntelligenceOrchestratorEditor",
+                                                                         "ProjectIntelligenceOrchestratorInterface",
+                                                                         "ProjectIntelligenceOrchestratorRuntime"
+                                                                     ],
+                                                         "name":  "ProjectIntelligenceOrchestrator",
+                                                         "plugin_dependencies":  [
+                                                                                     "UnrealCapabilityMesh"
+                                                                                 ],
+                                                         "version":  "0.2.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+                                                                         "TopDownArenaRuntime"
+                                                                     ],
+                                                         "name":  "TopDownArena",
+                                                         "plugin_dependencies":  [
+                                                                                     "GameplayAbilities",
+                                                                                     "LyraExampleContent",
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  2,
+                                                         "modules":  [
+                                                                         "ShooterCoreRuntime"
+                                                                     ],
+                                                         "name":  "ShooterCore",
+                                                         "plugin_dependencies":  [
+                                                                                     "AsyncMixin",
+                                                                                     "CommonGame",
+                                                                                     "CommonUI",
+                                                                                     "EnhancedInput",
+                                                                                     "GameplayAbilities",
+                                                                                     "GameplayMessageRouter",
+                                                                                     "GameSubtitles",
+                                                                                     "LyraExampleContent",
+                                                                                     "ModularGameplay"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  2,
+                                                         "modules":  [
+                                                                         "UIExtension"
+                                                                     ],
+                                                         "name":  "UIExtension",
+                                                         "plugin_dependencies":  [
+                                                                                     "CommonGame"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "ShooterExplorer",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraExampleContent",
+                                                                                     "ShooterCore"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "ShooterMaps",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraExampleContent",
+                                                                                     "ShooterCore"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "ShooterTestsRuntime"
+                                                                     ],
+                                                         "name":  "ShooterTests",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraExampleContent",
+                                                                                     "ShooterCore"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     }
+                                                 ],
+                                     "project_file":  "LyraStarterGame.uproject",
+                                     "project_root":  "E:/LyraStarterGame"
+                                 },
+                      "target":  {
+                                     "plugins":  [
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "AsyncMixin"
+                                                                     ],
+                                                         "name":  "AsyncMixin",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "CommonLoadingScreen",
+                                                                         "CommonStartupLoadingScreen"
+                                                                     ],
+                                                         "name":  "CommonLoadingScreen",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "CommonUser"
+                                                                     ],
+                                                         "name":  "CommonUser",
+                                                         "plugin_dependencies":  [
+                                                                                     "OnlineServices",
+                                                                                     "OnlineSubsystem",
+                                                                                     "OnlineSubsystemUtils"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameFeature_AccoladeSystemRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_AccoladeSystem",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameplayMessageNodes",
+                                                                         "GameplayMessageRuntime"
+                                                                     ],
+                                                         "name":  "GameplayMessageRouter",
+                                                         "plugin_dependencies":  [
+                                                                                     "GameplayTagsEditor"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameSettings"
+                                                                     ],
+                                                         "name":  "GameSettings",
+                                                         "plugin_dependencies":  [
+                                                                                     "CommonUI"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GameSubtitles"
+                                                                     ],
+                                                         "name":  "GameSubtitles",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "SamplePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "GlobalConfigFiles"
+                                                                     ],
+                                                         "name":  "GlobalConfigFiles",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "HumanoidsContent",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "EditorPlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "LoggingMacros"
+                                                                     ],
+                                                         "name":  "LoggingMacros",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraAudioAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "AudioModulation",
+                                                                                     "Metasound"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraMapAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraSharedVisualAssets",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraSystemAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraUIAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "CommonUI"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "CorePlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+                                                                         "PocketWorlds"
+                                                                     ],
+                                                         "name":  "PocketWorlds",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  0,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "VehiclesContent",
+                                                         "plugin_dependencies":  [
+
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+                                                                         "AssetLoader"
+                                                                     ],
+                                                         "name":  "AssetLoader",
+                                                         "plugin_dependencies":  [
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "EditorPlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+                                                                         "EditorManager"
+                                                                     ],
+                                                         "name":  "EditorManager",
+                                                         "plugin_dependencies":  [
+                                                                                     "EditorScriptingUtilities",
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraExampleContent",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraSharedVisualAssets"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraMaterialAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraUIAssets"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraVfxAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraSharedVisualAssets",
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  1,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraWeaponAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraSharedVisualAssets",
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  2,
+                                                         "modules":  [
+                                                                         "Elemental_Classes",
+                                                                         "Elemental_Common",
+                                                                         "Elemental_Data",
+                                                                         "Elemental_Editor",
+                                                                         "Elemental_Interfaces",
+                                                                         "Elemental_Logging",
+                                                                         "Elemental_MessageSystem",
+                                                                         "Elemental_Network",
+                                                                         "Elemental_Player",
+                                                                         "Elemental_Settings",
+                                                                         "Elemental_Structure",
+                                                                         "Elemental_Teams"
+                                                                     ],
+                                                         "name":  "Elemental_Collection",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "ChaosVehiclesPlugin",
+                                                                                     "CommonUI",
+                                                                                     "CommonUser",
+                                                                                     "EnhancedInput",
+                                                                                     "GameFeatures",
+                                                                                     "GameplayAbilities",
+                                                                                     "GameplayMessageRouter",
+                                                                                     "GameSubtitles",
+                                                                                     "LoggingMacros",
+                                                                                     "ModularGameplay",
+                                                                                     "ReplicationGraph",
+                                                                                     "SignificanceManager"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  2,
+                                                         "modules":  [
+                                                                         "InputSystem"
+                                                                     ],
+                                                         "name":  "InputSystem",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "EnhancedInput",
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0.1"
+                                                     },
+                                                     {
+                                                         "category_folder":  "AssetPlugins",
+                                                         "content_only":  true,
+                                                         "dependency_rank":  2,
+                                                         "modules":  [
+
+                                                                     ],
+                                                         "name":  "LyraCharacterAssets",
+                                                         "plugin_dependencies":  [
+                                                                                     "LyraSharedVisualAssets",
+                                                                                     "LyraVfxAssets",
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "0.1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "Controllers"
+                                                                     ],
+                                                         "name":  "Controllers",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Elemental_Collection",
+                                                                                     "InputSystem",
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "Core_AbilitySystem",
+                                                                         "Core_Classes",
+                                                                         "Core_Collection_Editor",
+                                                                         "Core_Data",
+                                                                         "Core_Demo",
+                                                                         "Core_Development",
+                                                                         "Core_Effects",
+                                                                         "Core_Extras",
+                                                                         "Core_GameFeatures",
+                                                                         "Core_Interact",
+                                                                         "Core_Interfaces",
+                                                                         "Core_Logging",
+                                                                         "Core_Setup",
+                                                                         "Core_Structure",
+                                                                         "Core_System"
+                                                                     ],
+                                                         "name":  "Core_Collection",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "AudioModulation",
+                                                                                     "ChaosVehiclesPlugin",
+                                                                                     "Elemental_Collection",
+                                                                                     "GameplayMessageRouter",
+                                                                                     "GameSettings",
+                                                                                     "LoggingMacros",
+                                                                                     "ModularGameplay",
+                                                                                     "Niagara"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  3,
+                                                         "modules":  [
+                                                                         "GameFeature_HumanoidMovementRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_HumanoidMovement",
+                                                         "plugin_dependencies":  [
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Aircrafts"
+                                                                     ],
+                                                         "name":  "Aircrafts",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection",
+                                                                                     "LoggingMacros"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "GameFeature_InteractRuntime",
+                                                                         "GameFeature_InteractSetup"
+                                                                     ],
+                                                         "name":  "GameFeature_Interact",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins/GameFeatures",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "GameFeature_PhysicalAwarenessRuntime"
+                                                                     ],
+                                                         "name":  "GameFeature_PhysicalAwareness",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Helicopters"
+                                                                     ],
+                                                         "name":  "Helicopters",
+                                                         "plugin_dependencies":  [
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Humanoids"
+                                                                     ],
+                                                         "name":  "Humanoids",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Ships"
+                                                                     ],
+                                                         "name":  "Ships",
+                                                         "plugin_dependencies":  [
+                                                                                     "Core_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "Plugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  4,
+                                                         "modules":  [
+                                                                         "Vehicles",
+                                                                         "VehiclesEditor"
+                                                                     ],
+                                                         "name":  "Vehicles",
+                                                         "plugin_dependencies":  [
+                                                                                     "AssetLoader",
+                                                                                     "ChaosVehiclesPlugin",
+                                                                                     "Core_Collection",
+                                                                                     "Elemental_Collection"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "EditorPlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  5,
+                                                         "modules":  [
+                                                                         "EntityCoreEditor",
+                                                                         "EntityCoreRuntime"
+                                                                     ],
+                                                         "name":  "EntityCoreEditor",
+                                                         "plugin_dependencies":  [
+                                                                                     "Aircrafts",
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "EditorManager",
+                                                                                     "Elemental_Collection",
+                                                                                     "Helicopters",
+                                                                                     "LoggingMacros",
+                                                                                     "Warfare"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     },
+                                                     {
+                                                         "category_folder":  "EditorPlugins",
+                                                         "content_only":  false,
+                                                         "dependency_rank":  6,
+                                                         "modules":  [
+                                                                         "EntityVisualEditor"
+                                                                     ],
+                                                         "name":  "EntityVisualEditor",
+                                                         "plugin_dependencies":  [
+                                                                                     "Aircrafts",
+                                                                                     "AssetLoader",
+                                                                                     "Core_Collection",
+                                                                                     "EditorManager",
+                                                                                     "Elemental_Collection",
+                                                                                     "EntityCoreEditor",
+                                                                                     "Helicopters",
+                                                                                     "LoggingMacros",
+                                                                                     "Warfare"
+                                                                                 ],
+                                                         "version":  "1.0"
+                                                     }
+                                                 ],
+                                     "project_file":  "UGE_ContentExamples.uproject",
+                                     "project_root":  "D:/UGE_ContentExamples"
+                                 }
+                  },
+    "review":  {
+                   "approved_by":  "",
+                   "evidence_refs":  [
+
+                                     ],
+                   "status":  "draft"
+               },
+    "schema":  "uge.composition.v1",
+    "source_project":  {
+                           "git_commit":  "unversioned-source; pinned by evidence file listing",
+                           "root":  "E:/LyraStarterGame"
+                       },
+    "target_project":  {
+                           "git_commit":  "a38b8a90a7825b578408912331edf875a11fc025",
+                           "root":  "D:/UGE_ContentExamples"
+                       },
+    "transfer_plan":  [
+                          {
+                              "plugin_name":  "Game",
+                              "action":  "adopt",
+                              "order":  0,
+                              "skip_reason":  "",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-exact-source-snapshot.json#/Game"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "ShooterCore",
+                              "action":  "adopt",
+                              "order":  1,
+                              "skip_reason":  "",
+                              "depends_on":  [
+                                                 "Game"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ShooterCore"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "ShooterMaps",
+                              "action":  "adopt",
+                              "order":  2,
+                              "skip_reason":  "",
+                              "depends_on":  [
+                                                 "ShooterCore"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ShooterMaps"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "AssetLoaderStudio",
+                              "action":  "skip",
+                              "order":  3,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#AssetLoaderStudio"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "AssetPluginMaker",
+                              "action":  "skip",
+                              "order":  4,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#AssetPluginMaker"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "AsyncMixin",
+                              "action":  "skip",
+                              "order":  5,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#AsyncMixin"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "AsyncSplineBuilder",
+                              "action":  "skip",
+                              "order":  6,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#AsyncSplineBuilder"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "BestPracticesJournal",
+                              "action":  "skip",
+                              "order":  7,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#BestPracticesJournal"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "CodeCopyrightEditor",
+                              "action":  "skip",
+                              "order":  8,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#CodeCopyrightEditor"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "CommonLoadingScreen",
+                              "action":  "skip",
+                              "order":  9,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#CommonLoadingScreen"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "CommonUser",
+                              "action":  "skip",
+                              "order":  10,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#CommonUser"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "EditorExtensionBase",
+                              "action":  "skip",
+                              "order":  11,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#EditorExtensionBase"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "GameFeaturedClasses",
+                              "action":  "skip",
+                              "order":  12,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#GameFeaturedClasses"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "GameplayMessageRouter",
+                              "action":  "skip",
+                              "order":  13,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#GameplayMessageRouter"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "GameSettings",
+                              "action":  "skip",
+                              "order":  14,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#GameSettings"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "GameSubtitles",
+                              "action":  "skip",
+                              "order":  15,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#GameSubtitles"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "GeoProviderStore",
+                              "action":  "skip",
+                              "order":  16,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#GeoProviderStore"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "InternalIndexService",
+                              "action":  "skip",
+                              "order":  17,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#InternalIndexService"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "LightningCore",
+                              "action":  "skip",
+                              "order":  18,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#LightningCore"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "LightweightDummyActorSystem",
+                              "action":  "skip",
+                              "order":  19,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#LightweightDummyActorSystem"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "LightweightEditorMode",
+                              "action":  "skip",
+                              "order":  20,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#LightweightEditorMode"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "LLMStore",
+                              "action":  "skip",
+                              "order":  21,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#LLMStore"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "LogLevelEditor",
+                              "action":  "skip",
+                              "order":  22,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#LogLevelEditor"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "LyraExampleContent",
+                              "action":  "skip",
+                              "order":  23,
+                              "skip_reason":  "Out of Phase 6 acceptance scope; candidate for a later manifest revision.",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#LyraExampleContent"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "LyraExtTool",
+                              "action":  "skip",
+                              "order":  24,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#LyraExtTool"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "ModularGameplayActors",
+                              "action":  "skip",
+                              "order":  25,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ModularGameplayActors"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "NamingConventionUtility",
+                              "action":  "skip",
+                              "order":  26,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#NamingConventionUtility"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "PerformancePresetWizard",
+                              "action":  "skip",
+                              "order":  27,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#PerformancePresetWizard"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "PocketWorlds",
+                              "action":  "skip",
+                              "order":  28,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#PocketWorlds"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "ProceduralGeneratedStructures",
+                              "action":  "skip",
+                              "order":  29,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ProceduralGeneratedStructures"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "ProjectDesignAssistant",
+                              "action":  "skip",
+                              "order":  30,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ProjectDesignAssistant"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "ProjectRestructureService",
+                              "action":  "skip",
+                              "order":  31,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ProjectRestructureService"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "SmartContentDiet",
+                              "action":  "skip",
+                              "order":  32,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#SmartContentDiet"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "SmartDocumentationAssistant",
+                              "action":  "skip",
+                              "order":  33,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#SmartDocumentationAssistant"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "UnifiedMcpServer",
+                              "action":  "skip",
+                              "order":  34,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#UnifiedMcpServer"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "UnrealBlueprintIntegrator",
+                              "action":  "skip",
+                              "order":  35,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#UnrealBlueprintIntegrator"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "UnrealCapabilityMesh",
+                              "action":  "skip",
+                              "order":  36,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#UnrealCapabilityMesh"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "UnrealCodeIntegrator",
+                              "action":  "skip",
+                              "order":  37,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#UnrealCodeIntegrator"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "UnrealIntegrationIntelligence",
+                              "action":  "skip",
+                              "order":  38,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#UnrealIntegrationIntelligence"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "VisualFidelityDirector",
+                              "action":  "skip",
+                              "order":  39,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#VisualFidelityDirector"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "CommonGame",
+                              "action":  "skip",
+                              "order":  40,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#CommonGame"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "InternalIndexServiceLLMStoreBridge",
+                              "action":  "skip",
+                              "order":  41,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#InternalIndexServiceLLMStoreBridge"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "ProjectIntelligenceOrchestrator",
+                              "action":  "skip",
+                              "order":  42,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ProjectIntelligenceOrchestrator"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "TopDownArena",
+                              "action":  "skip",
+                              "order":  43,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#TopDownArena"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "UIExtension",
+                              "action":  "skip",
+                              "order":  44,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#UIExtension"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "ShooterExplorer",
+                              "action":  "skip",
+                              "order":  45,
+                              "skip_reason":  "Out of Phase 6 acceptance scope; candidate for a later manifest revision.",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ShooterExplorer"
+                                                ]
+                          },
+                          {
+                              "plugin_name":  "ShooterTests",
+                              "action":  "skip",
+                              "order":  46,
+                              "skip_reason":  "Code source is UGE (SAD D6); LyraStarterGame contributes content packs only (SAD D10).",
+                              "depends_on":  [
+
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ShooterTests"
+                                                ]
+                          }
+                      ],
+    "variant_axes":  {
+                         "lightning":  "without",
+                         "tuning_profile":  "default"
+                     },
+    "verification":  {
+                         "boot_checks":  {
+                                             "transfer_complete":  "",
+                                             "references_complete":  "/ShooterMaps",
+                                             "map_loads":  "/ShooterMaps/Maps/L_Expanse.L_Expanse",
+                                             "experience_resolves":  "/ShooterCore/Experiences/B_ShooterGame_Elimination.B_ShooterGame_Elimination_C"
+                                         },
+                         "frame_ms_budget":  16.699999999999999,
+                         "startup_seconds_max":  30
+                     },
+    "wiring_plan":  [
+
+                    ],
+    "compatibility_review":  {
+                                 "status":  "blocked_pending_human_disposition",
+                                 "packaging_plan_hash":  "8e81a9e4a3205e12a99a9019f80c4e3d74a06b3d",
+                                 "asset_count":  7617,
+                                 "payload_count":  12426,
+                                 "map_count":  10,
+                                 "blocker_count":  207,
+                                 "blocker_counts":  {
+                                                        "unresolved_source_class":  130,
+                                                        "unresolved_source_class_import":  66,
+                                                        "unresolved_redirect_target":  7,
+                                                        "unresolved_source_script_module":  4
+                                                    },
+                                 "persisted_source_types":  [
+                                                                "/Script/LyraGame.AnimNotify_LyraContextEffects",
+                                                                "/Script/LyraGame.ApplyFrontendPerfSettingsAction",
+                                                                "/Script/LyraGame.CircumferenceMarkerWidget",
+                                                                "/Script/LyraGame.GameFeatureAction_AddAbilities",
+                                                                "/Script/LyraGame.GameFeatureAction_AddGameplayCuePath",
+                                                                "/Script/LyraGame.GameFeatureAction_AddInputBinding",
+                                                                "/Script/LyraGame.GameFeatureAction_AddInputContextMapping",
+                                                                "/Script/LyraGame.GameFeatureAction_AddWidgets",
+                                                                "/Script/LyraGame.GameFeatureAction_SplitscreenConfig",
+                                                                "/Script/LyraGame.HitMarkerConfirmationWidget",
+                                                                "/Script/LyraGame.IndicatorLayer",
+                                                                "/Script/LyraGame.InventoryFragment_EquippableItem",
+                                                                "/Script/LyraGame.InventoryFragment_PickupIcon",
+                                                                "/Script/LyraGame.InventoryFragment_QuickBarIcon",
+                                                                "/Script/LyraGame.InventoryFragment_ReticleConfig",
+                                                                "/Script/LyraGame.InventoryFragment_SetStats",
+                                                                "/Script/LyraGame.LyraAbilityCost_ItemTagStack",
+                                                                "/Script/LyraGame.LyraAbilityMontageFailureMessage",
+                                                                "/Script/LyraGame.LyraAbilitySet",
+                                                                "/Script/LyraGame.LyraAbilitySimpleFailureMessage",
+                                                                "/Script/LyraGame.LyraCameraComponent",
+                                                                "/Script/LyraGame.LyraCharacterMovementComponent",
+                                                                "/Script/LyraGame.LyraCharacterPart",
+                                                                "/Script/LyraGame.LyraContextEffectAnimNotifyAudioSettings",
+                                                                "/Script/LyraGame.LyraContextEffectAnimNotifyTraceSettings",
+                                                                "/Script/LyraGame.LyraContextEffectAnimNotifyVFXSettings",
+                                                                "/Script/LyraGame.LyraContextEffectComponent",
+                                                                "/Script/LyraGame.LyraContextEffectsLibrary",
+                                                                "/Script/LyraGame.LyraExperienceActionSet",
+                                                                "/Script/LyraGame.LyraHealthComponent",
+                                                                "/Script/LyraGame.LyraHeroComponent",
+                                                                "/Script/LyraGame.LyraInputModifierAimInversion",
+                                                                "/Script/LyraGame.LyraInputModifierDeadZone",
+                                                                "/Script/LyraGame.LyraInputModifierGamepadSensitivity",
+                                                                "/Script/LyraGame.LyraInteractionDurationMessage",
+                                                                "/Script/LyraGame.LyraListView",
+                                                                "/Script/LyraGame.LyraNotificationMessage",
+                                                                "/Script/LyraGame.LyraPawnData",
+                                                                "/Script/LyraGame.LyraPawnExtensionComponent",
+                                                                "/Script/LyraGame.LyraPlayerResetMessage",
+                                                                "/Script/LyraGame.LyraPlayerStart",
+                                                                "/Script/LyraGame.LyraQuickBarActiveIndexChangedMessage",
+                                                                "/Script/LyraGame.LyraQuickBarSlotsChangedMessage",
+                                                                "/Script/LyraGame.LyraSettingBasedScalar",
+                                                                "/Script/LyraGame.LyraTabDescriptor",
+                                                                "/Script/LyraGame.LyraTeamDisplayAsset",
+                                                                "/Script/LyraGame.LyraUserFacingExperienceDefinition",
+                                                                "/Script/LyraGame.LyraVerbMessage",
+                                                                "/Script/LyraGame.LyraWidgetFactory_Class",
+                                                                "/Script/LyraGame.LyraWorldSettings",
+                                                                "/Script/LyraGame.PhysicalMaterialWithTags",
+                                                                "/Script/ShooterCoreRuntime.AimAssistInputModifier",
+                                                                "/Script/ShooterCoreRuntime.AimAssistTargetComponent",
+                                                                "/Script/ShooterCoreRuntime.LyraAccoladeDefinitionRow",
+                                                                "/Script/ShooterCoreRuntime.LyraControlPointStatusMessage",
+                                                                "/Script/ShooterCoreRuntime.PendingAccoladeEntry"
+                                                            ],
+                                 "evidence_refs":  [
+                                                       "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
+                                                       "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-exact-source-snapshot.json",
+                                                       "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json",
+                                                       "D:/UGE_ContentExamples/Docs/Composition/evidence/lyra-source-pin.v1.json"
+                                                   ]
+                             }
+}

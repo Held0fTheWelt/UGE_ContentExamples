@@ -1,0 +1,36 @@
+{
+  "schema": "content_packaging.plan.v1",
+  "plan_id": "uge-phase6-experience-scaffold",
+  "profile_hash": "manual-reviewed-b4-spec",
+  "snapshot_hash": "manual-reviewed-b4-spec",
+  "plan_hash": "uge-phase6-experience-scaffold-b4",
+  "entries": [],
+  "cross_pack_references": [],
+  "descriptor_dependencies": {},
+  "generated_assets": [],
+  "build_order": [],
+  "composition_rebuilds": [],
+  "blueprint_scaffolds": [
+    {
+      "source_package": "/Game/Experiences/B_DefaultExperience",
+      "source_class": "Blueprint",
+      "native_parent_class": "/Script/Core_Data.ExperienceDefinition",
+      "source_file_hash": "new-target-native-scaffold",
+      "target_architecture": "ExperienceComposition",
+      "implementation_kind": "CreateTargetExperienceBlueprint",
+      "suggested_owner": "TargetExperience",
+      "rule_id": "uge_phase6_default_experience",
+      "asset_kind": "Blueprint",
+      "target_plugin_root": "",
+      "target_mount": "/Game",
+      "target_package": "/Game/Experiences/B_DefaultExperience",
+      "asset_name": "B_DefaultExperience",
+      "parent_class": "/Script/Core_Data.ExperienceDefinition",
+      "overwrite_policy": "SkipExisting",
+      "depends_on_packs": [],
+      "implementation_notes": "Create the target-native default experience before applying reviewed UBI CDO wiring."
+    }
+  ],
+  "blockers": [],
+  "review_queue": []
+}
