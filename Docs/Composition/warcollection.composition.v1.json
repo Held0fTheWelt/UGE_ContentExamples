@@ -2488,11 +2488,11 @@
                                  }
                   },
     "review":  {
-                   "approved_by":  "",
+                   "approved_by":  "YvesT",
                    "evidence_refs":  [
 
                                      ],
-                   "status":  "draft"
+                   "status":  "approved"
                },
     "schema":  "uge.composition.v1",
     "source_project":  {
