@@ -93,7 +93,167 @@
 			"Enabled": true
 		},
 		{
+			"Name": "AnimationLocomotionLibrary",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "MotionWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayCameras",
+			"Enabled": true
+		},
+		{
+			"Name": "Spatialization",
+			"Enabled": true
+		},
+		{
 			"Name": "ModularGameplay",
+			"Enabled": true
+		},
+		{
+			"Name": "AsyncMixin",
+			"Enabled": true
+		},
+		{
+			"Name": "CommonLoadingScreen",
+			"Enabled": true
+		},
+		{
+			"Name": "CommonUser",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayMessageRouter",
+			"Enabled": true
+		},
+		{
+			"Name": "GameSettings",
+			"Enabled": true
+		},
+		{
+			"Name": "GameSubtitles",
+			"Enabled": true
+		},
+		{
+			"Name": "LoggingMacros",
+			"Enabled": true
+		},
+		{
+			"Name": "PocketWorlds",
+			"Enabled": true
+		},
+		{
+			"Name": "AssetLoader",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorManager",
+			"Enabled": true
+		},
+		{
+			"Name": "Elemental_Collection",
+			"Enabled": true
+		},
+		{
+			"Name": "InputSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "Controllers",
+			"Enabled": true
+		},
+		{
+			"Name": "Core_Collection",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_AccoladeSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_AnimationSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_CosmeticsSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_EquipmentSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_ExperienceSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_FeedbackSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_HeroSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_HumanoidMovement",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_Interact",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_InteractionSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_InventorySystem",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_PawnExtension",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_PhysicalAwareness",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeature_Tournament",
+			"Enabled": true
+		},
+		{
+			"Name": "Aircrafts",
+			"Enabled": true
+		},
+		{
+			"Name": "Helicopters",
+			"Enabled": true
+		},
+		{
+			"Name": "Humanoids",
+			"Enabled": true
+		},
+		{
+			"Name": "Ships",
+			"Enabled": true
+		},
+		{
+			"Name": "Vehicles",
+			"Enabled": true
+		},
+		{
+			"Name": "EntityCoreEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "EntityVisualEditor",
 			"Enabled": true
 		}
 	],

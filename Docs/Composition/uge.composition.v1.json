@@ -1200,11 +1200,11 @@
                                  }
                   },
     "review":  {
-                   "approved_by":  "user",
+                   "approved_by":  "",
                    "evidence_refs":  [
 
                                      ],
-                   "status":  "approved"
+                   "status":  "draft"
                },
     "schema":  "uge.composition.v1",
     "source_project":  {
@@ -1682,6 +1682,22 @@
                                                 ],
                               "order":  34,
                               "plugin_name":  "EntityVisualEditor",
+                              "skip_reason":  ""
+                          },
+                          {
+                              "action":  "replace",
+                              "depends_on":  [
+                                                 "Core_Collection",
+                                                 "GameFeature_EquipmentSystem",
+                                                 "GameFeature_FeedbackSystem",
+                                                 "GameFeature_InventorySystem"
+                                             ],
+                              "evidence_refs":  [
+                                                    "D:/UGE_ContentExamples/Saved/CodexEvidence/ucm_uge_inventory_refresh_response.json#LyraContentCompatibility",
+                                                    "D:/UGE/Plugins/LyraContentCompatibility/LyraContentCompatibility.uplugin"
+                                                ],
+                              "order":  35,
+                              "plugin_name":  "LyraContentCompatibility",
                               "skip_reason":  ""
                           }
                       ],
