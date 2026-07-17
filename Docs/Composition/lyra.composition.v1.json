@@ -1296,8 +1296,9 @@
 
                                              ],
                               "evidence_refs":  [
-                                                    "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
-                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-exact-source-snapshot.json#/Game"
+                              "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
+                              "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-exact-source-snapshot.json#/Game",
+                              "D:/UGE_ContentExamples/Docs/Composition/evidence/lyra-adoption-divergence.v1.json"
                                                 ]
                           },
                           {
@@ -1309,8 +1310,9 @@
                                                  "Game"
                                              ],
                               "evidence_refs":  [
-                                                    "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
-                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ShooterCore"
+                              "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
+                              "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ShooterCore",
+                              "D:/UGE_ContentExamples/Docs/Composition/evidence/lyra-adoption-divergence.v1.json"
                                                 ]
                           },
                           {
@@ -1322,8 +1324,9 @@
                                                  "ShooterCore"
                                              ],
                               "evidence_refs":  [
-                                                    "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
-                                                    "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ShooterMaps"
+                              "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
+                              "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ShooterMaps",
+                              "D:/UGE_ContentExamples/Docs/Composition/evidence/lyra-adoption-divergence.v1.json"
                                                 ]
                           },
                           {

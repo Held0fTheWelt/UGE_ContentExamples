@@ -1,0 +1,13 @@
+{
+  "schema": "uge.composition.divergence.v1",
+  "source_project": "E:/LyraStarterGame",
+  "target_project": "D:/UGE_ContentExamples",
+  "source_snapshot": "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-exact-source-snapshot.json",
+  "packaging_plan": "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
+  "disposition": "Exact-package adoption preserves original long-package identities and payload pins; no semantic reference remapping is claimed.",
+  "adopted_scopes": [
+    "/Game/System",
+    "/ShooterCore",
+    "/ShooterMaps"
+  ]
+}
