@@ -8,7 +8,11 @@ public class UGE_ContentExamples : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
+		PublicDependencyModuleNames.AddRange(new string[]
+		{
+			"Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput",
+			"Niagara", "Synthesis", "GameplayAbilities"
+		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

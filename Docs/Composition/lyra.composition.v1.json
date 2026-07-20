@@ -1289,14 +1289,15 @@
     "transfer_plan":  [
                           {
                               "plugin_name":  "Game",
-                              "action":  "adopt",
+                              "action":  "skip",
                               "order":  0,
-                              "skip_reason":  "",
+                              "skip_reason":  "APM exact-packaged the /Game payload into CE project content; no target plugin exists to adopt.",
                               "depends_on":  [
 
                                              ],
                               "evidence_refs":  [
                               "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
+                              "D:/UGE_ContentExamples/Saved/PioComposition/reports/lyra-exact-packaging-execute.json#Game",
                               "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-exact-source-snapshot.json#/Game",
                               "D:/UGE_ContentExamples/Docs/Composition/evidence/lyra-adoption-divergence.v1.json"
                                                 ]
@@ -1311,6 +1312,7 @@
                                              ],
                               "evidence_refs":  [
                               "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
+                              "D:/UGE_ContentExamples/Saved/PioComposition/reports/lyra-exact-packaging-execute.json#ShooterCore",
                               "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ShooterCore",
                               "D:/UGE_ContentExamples/Docs/Composition/evidence/lyra-adoption-divergence.v1.json"
                                                 ]
@@ -1325,6 +1327,7 @@
                                              ],
                               "evidence_refs":  [
                               "D:/UGE_ContentExamples/Saved/PioComposition/lyra-exact-packaging.plan.json",
+                              "D:/UGE_ContentExamples/Saved/PioComposition/reports/lyra-exact-packaging-execute.json#ShooterMaps",
                               "D:/UGE_ContentExamples/Saved/PioComposition/inventories/lyra-vs-ce.json#ShooterMaps",
                               "D:/UGE_ContentExamples/Docs/Composition/evidence/lyra-adoption-divergence.v1.json"
                                                 ]

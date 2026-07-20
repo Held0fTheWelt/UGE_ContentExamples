@@ -16,4 +16,18 @@ Saved
 Plugins
 CorePlugins
 EditorPlugins
+# Local TTD build-host dependencies are copied for editor use only.  Their
+# authoritative sources remain in D:\TinyToolDevelopment\Git and are declared
+# in Docs/TTD_PLUGIN_DEPENDENCIES.md.
+/EditorPlugins/UnrealCapabilityMesh/
+/EditorPlugins/UnifiedMcpServer/
+/EditorPlugins/TinyToolExecution/
+/EditorPlugins/TinyToolExecutionIntegrationBridge/
+/EditorPlugins/AssetPluginMaker/
+/EditorPlugins/ProjectIntelligenceOrchestrator/
+/EditorPlugins/UnrealBlueprintIntegrator/
+/EditorPlugins/UnrealIntegrationIntelligence/
+/EditorPlugins/UnrealCodeIntegrator/
+/EditorPlugins/InternalIndexService/
+/EditorPlugins/SmartContentDiet/
 WidgetPlugins

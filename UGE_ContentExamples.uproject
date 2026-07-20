@@ -1,12 +1,17 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.6",
+	"EngineAssociation": "5.8",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "UGE_ContentExamples",
 			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "UGE_ContentExamplesEditor",
+			"Type": "Editor",
 			"LoadingPhase": "Default"
 		}
 	],
@@ -69,6 +74,13 @@
 		},
 		{
 			"Name": "UnrealIntegrationIntelligence",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "UnrealCodeIntegrator",
 			"Enabled": true,
 			"TargetAllowList": [
 				"Editor"
@@ -254,6 +266,26 @@
 		},
 		{
 			"Name": "EntityVisualEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "LyraContentCompatibility",
+			"Enabled": true
+		},
+		{
+			"Name": "ShooterCore",
+			"Enabled": true
+		},
+		{
+			"Name": "ShooterMaps",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "Synthesis",
 			"Enabled": true
 		}
 	],
