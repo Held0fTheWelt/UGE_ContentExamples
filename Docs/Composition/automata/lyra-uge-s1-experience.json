@@ -1,0 +1,19 @@
+{
+  "schema": "pio.use_case_automaton_config.v1",
+  "use_case_id": "lyra-uge-s1-experience",
+  "source_root": "D:/UGE_ContentExamples",
+  "target_root": "D:/UGE_ContentExamples",
+  "archetype_rule_set_id": "uge.s1.experience",
+  "autonomy": "last_mile_to_agent",
+  "emit_cap": 25,
+  "route_sequence": [
+    "pio.composition.rebuild_compile.v1",
+    "pio.composition.execute.v1",
+    "pio.composition.verify.v1"
+  ],
+  "notes": [
+    "LyraStarterGame absent on this host; live evidence is CE-preserved Lyra Experience BP + UBI/UII.",
+    "Stop condition = union of rebuild_closure_report.v1 + closure_report.v1 unwaived blockers (D18).",
+    "Drive/resume via pio.use_case.automaton.resume.v1 (not listed in route_sequence)."
+  ]
+}
