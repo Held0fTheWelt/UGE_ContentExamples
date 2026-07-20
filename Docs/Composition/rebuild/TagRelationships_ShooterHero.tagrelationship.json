@@ -1,0 +1,16 @@
+{
+  "schema": "ubi.mutation.change_spec.v1",
+  "profileId": "ubi.mutation_apply",
+  "evidence_refs": [
+    "Saved/Automation/S2aRebuild/s27/data_export_live.json",
+    "Saved/Automation/S2aRebuild/s27/data_evidence.live.v1.json"
+  ],
+  "change": {
+    "assetPath": "/ShooterCore/Game/DA_ATR_ShooterHero.DA_ATR_ShooterHero",
+    "changeType": "upsert_data_asset",
+    "parametersJson": "{\"classPath\":\"/Script/Core_AbilitySystem.AbilityTagRelationshipMapping\",\"fields\":{\"AbilityTagRelationships\":[]}}"
+  },
+  "notes": [
+    "Source TagRelationships_ShooterHero loaded with 9 relationships via CoreRedirect; deep struct dump not available in Python stringify — DA created ring-native without fabricated rows."
+  ]
+}

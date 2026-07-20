@@ -1,0 +1,16 @@
+{
+  "schema": "ubi.mutation.change_spec.v1",
+  "profileId": "ubi.mutation_apply",
+  "evidence_refs": [
+    "Saved/Automation/S2aRebuild/s27/data_export_live.json",
+    "Saved/Automation/S2aRebuild/s27/data_evidence.live.v1.json"
+  ],
+  "change": {
+    "assetPath": "/ShooterCore/Input/DA_InputConfig_ShooterGame_AddOns.DA_InputConfig_ShooterGame_AddOns",
+    "changeType": "upsert_data_asset",
+    "parametersJson": "{\"classPath\":\"/Script/InputSystem.InputConfigDataAssetSet\",\"fields\":{\"InputMappingActions\":[\" (0x00000263138D0760) {input_action: \\\"/Script/EnhancedInput.InputAction\",\" (0x00000263138D0740) {input_action: \\\"/Script/EnhancedInput.InputAction\",\" (0x00000263138D0660) {input_action: \\\"/Script/EnhancedInput.InputAction\",\" (0x00000263138D5FE0) {input_action: \\\"/Script/EnhancedInput.InputAction\",\" (0x00000263138D07C0) {input_action: \\\"/Script/EnhancedInput.InputAction\",\" (0x00000263138D0780) {input_action: \\\"/Script/EnhancedInput.InputAction\"]}}"
+  },
+  "notes": [
+    "Mapped AbilityInputActions/NativeInputActions InputAction soft paths → InputMappingActions only. InputSettingType/InputTypes/InputMappingContexts left unset (no evidence)."
+  ]
+}

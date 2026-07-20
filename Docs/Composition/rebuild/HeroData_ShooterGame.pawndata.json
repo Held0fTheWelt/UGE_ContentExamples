@@ -1,0 +1,13 @@
+{
+  "schema": "ubi.mutation.change_spec.v1",
+  "profileId": "ubi.mutation_apply",
+  "evidence_refs": [
+    "Saved/Automation/S2aRebuild/s27/data_export_live.json",
+    "Saved/Automation/S2aRebuild/s27/data_evidence.live.v1.json"
+  ],
+  "change": {
+    "assetPath": "/ShooterCore/Game/DA_PawnData_ShooterHero.DA_PawnData_ShooterHero",
+    "changeType": "upsert_data_asset",
+    "parametersJson": "{\"classPath\":\"/Script/Core_System.PawnData_Core\",\"fields\":{\"PawnClass\":\"/ShooterCore/Game/B_Hero_ShooterMannequin.B_Hero_ShooterMannequin_C\",\"AbilitySets\":[\"/ShooterCore/Game/AbilitySet_ShooterHero.AbilitySet_ShooterHero\"],\"TagRelationshipMapping\":\"/ShooterCore/Game/TagRelationships_ShooterHero.TagRelationships_ShooterHero\"}}"
+  }
+}
