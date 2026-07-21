@@ -1,0 +1,20 @@
+{
+  "schema": "pio.use_case_automaton_config.v1",
+  "use_case_id": "lyra-uge-s5-animbp",
+  "source_root": "D:/UGE_ContentExamples",
+  "target_root": "D:/UGE_ContentExamples",
+  "archetype_rule_set_id": "uge.s5.animbp",
+  "autonomy": "last_mile_to_agent",
+  "emit_cap": 25,
+  "route_sequence": [
+    "pio.composition.rebuild_compile.v1",
+    "pio.composition.execute.v1",
+    "pio.composition.verify.v1"
+  ],
+  "notes": [
+    "AnimationComposition vertical slice (S5). Full group is 730 — first-pass expect O(10)–O(100) honest blockers.",
+    "Stop condition = union of rebuild_closure_report.v1 + closure_report.v1 unwaived blockers (D18).",
+    "Drive/resume via pio.use_case.automaton.resume.v1; Animation redirects retire last (D14).",
+    "Ring-extension escalations (missing family contracts) are named debt — never guessed subclasses (D12)."
+  ]
+}

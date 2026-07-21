@@ -1,0 +1,11 @@
+{
+  "schema": "pio.composition.rebuild.animbp.v1",
+  "rebuild_id": "ABP_Mannequin_Base",
+  "wiring_asset_kind": "animbp",
+  "target_ring_id": "GameFeature_AnimationSystemRuntime.UFeaturedAnimInstance",
+  "authorable": [
+    "state_machines",
+    "linked_layers"
+  ],
+  "note": "Grounded C++ contract binding; BP graphs stay authorable."
+}
