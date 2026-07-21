@@ -1,0 +1,11 @@
+﻿{
+  "schema": "pio.composition.rebuild.wiring.v1",
+  "rebuild_id": "WID_Rifle",
+  "group_id": "EquipmentComposition",
+  "target_ring": "GameFeature_EquipmentSystem.EquipmentDefinition",
+  "source_asset": "/ShooterCore/Weapons/Rifle/WID_Rifle",
+  "target_asset": "/ShooterCore/Weapons/Rifle/DA_Equipment_Rifle",
+  "method": "duplicate_asset",
+  "required_fields": ["ActorsToSpawn", "AbilitySetsToGrant"],
+  "evidence": "Saved/Automation/S2bRebuild/s1/equipment_export_live.json"
+}

@@ -1,0 +1,11 @@
+﻿{
+  "schema": "pio.composition.rebuild.wiring.v1",
+  "rebuild_id": "ID_Rifle",
+  "group_id": "EquipmentComposition",
+  "target_ring": "GameFeature_InventorySystem.ItemDefinition",
+  "source_asset": "/ShooterCore/Weapons/Rifle/ID_Rifle",
+  "target_asset": "/ShooterCore/Weapons/Rifle/DA_Item_Rifle",
+  "method": "duplicate_asset",
+  "required_fields": ["DisplayName", "Fragments"],
+  "evidence": "Saved/Automation/S2bRebuild/s1/equipment_export_live.json"
+}
