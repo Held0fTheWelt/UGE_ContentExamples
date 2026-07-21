@@ -1,0 +1,6 @@
+{
+  "schema": "pio.composition.rebuild_wiring.v1",
+  "rebuild_id": "W_ShooterHUDLayout",
+  "kind": "widget",
+  "note": "S4 operator wiring stub for materialized UI chapter"
+}

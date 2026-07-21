@@ -1,0 +1,6 @@
+{
+  "schema": "pio.composition.rebuild_wiring.v1",
+  "rebuild_id": "HUD_Slot_EliminationFeed",
+  "kind": "slot",
+  "note": "S4 operator wiring stub for materialized UI chapter"
+}
