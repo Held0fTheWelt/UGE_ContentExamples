@@ -1,0 +1,53 @@
+{
+  "schema_version": "pio.bp_rematerialize_grounding.v1",
+  "notes": [
+    "S8 iter5: AnimBP Mannequin Base (+ Rebuilt) rematerialize after CE git restore.",
+    "Uses S5 evidence journals (anim_evidence.live.v1.json / FeaturedAnimInstance contract).",
+    "Do NOT wipe LinkedAnimLayer; EventGraph K2/PropertyAccess strip + Root scaffold only.",
+    "ALI restored from CE HEAD so layer interface functions resolve LinkedAnimLayer nodes."
+  ],
+  "evidence_refs": [
+    "Saved/Automation/S5Rebuild/s1/anim_evidence.live.v1.json",
+    "Saved/Automation/S5Rebuild/s1/composition_rebuilds_anim_live.v1.json",
+    "Saved/Automation/S5Rebuild/s1/ring_inventory_uge.live.v1.json",
+    "Docs/Composition/rebuild/ABP_Mannequin_Base.animbp.json"
+  ],
+  "entries": [
+    {
+      "asset": "/Game/Characters/Heroes/Mannequin/Animations/LinkedLayers/ALI_ItemAnimLayers.ALI_ItemAnimLayers",
+      "parent_class": "",
+      "strip": true,
+      "preserve_anim_graphs": true,
+      "archetype_kind": "animbp_layer_interface",
+      "prior_resolution": "rebuild",
+      "note": "Restore/compile ALI first so Base LinkedAnimLayer layer names resolve (S5 LinkedLayerGroups evidence)."
+    },
+    {
+      "asset": "/Game/Characters/Heroes/Mannequin/Animations/LinkedLayers/ABP_ItemAnimLayersBase.ABP_ItemAnimLayersBase",
+      "parent_class": "",
+      "strip": true,
+      "preserve_anim_graphs": true,
+      "archetype_kind": "animbp_layer_impl",
+      "prior_resolution": "rebuild",
+      "note": "Layer implementation base; keep LinkedAnimLayer composition."
+    },
+    {
+      "asset": "/Game/Characters/Heroes/Mannequin/Animations/ABP_Mannequin_Base.ABP_Mannequin_Base",
+      "parent_class": "",
+      "strip": true,
+      "preserve_anim_graphs": true,
+      "archetype_kind": "animbp_s5_journal_rematerialize",
+      "prior_resolution": "blocker",
+      "note": "S5 rebuild_compile grounded to FeaturedAnimInstance; rematerialize strip+scaffold with journals — no LinkedAnimLayer wipe."
+    },
+    {
+      "asset": "/Game/Characters/Heroes/Mannequin/Animations/ABP_Mannequin_Base_Rebuilt.ABP_Mannequin_Base_Rebuilt",
+      "parent_class": "",
+      "strip": true,
+      "preserve_anim_graphs": true,
+      "archetype_kind": "animbp_s5_journal_rematerialize",
+      "prior_resolution": "blocker",
+      "note": "S5 duplicate materialize of Base; same strip+scaffold path after CE git restore."
+    }
+  ]
+}
