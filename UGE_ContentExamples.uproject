@@ -257,6 +257,10 @@
 			"Enabled": true
 		},
 		{
+			"Name": "Submarines",
+			"Enabled": true
+		},
+		{
 			"Name": "Vehicles",
 			"Enabled": true
 		},
