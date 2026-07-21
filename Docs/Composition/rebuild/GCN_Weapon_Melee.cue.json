@@ -1,0 +1,6 @@
+{
+  "schema": "pio.composition.rebuild_wiring.v1",
+  "rebuild_id": "GCN_Weapon_Melee",
+  "kind": "cue",
+  "note": "S3 operator wiring stub for materialized GAS BP chapter"
+}

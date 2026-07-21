@@ -1,0 +1,6 @@
+{
+  "schema": "pio.composition.rebuild_wiring.v1",
+  "rebuild_id": "GA_Hero_Jump",
+  "kind": "ability",
+  "note": "S3 operator wiring stub for materialized GAS BP chapter"
+}
