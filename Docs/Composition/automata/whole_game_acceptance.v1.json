@@ -1,0 +1,21 @@
+﻿{
+  "schema": "pio.use_case_automaton_config.v1",
+  "use_case_id": "lyra-uge-s6-whole-game",
+  "source_root": "D:/UGE_ContentExamples",
+  "target_root": "D:/UGE_ContentExamples",
+  "archetype_rule_set_id": "uge.s6.whole_game",
+  "autonomy": "last_mile_to_agent",
+  "emit_cap": 25,
+  "route_sequence": [
+    "pio.composition.rebuild_compile.v1",
+    "pio.composition.execute.v1",
+    "pio.composition.verify.v1"
+  ],
+  "notes": [
+    "S6 MapAssembly (9) + WP15 whole-game acceptance.",
+    "Verify with whole_game=true after AssembleBootSet; require Elimination + Control-Points cold-boot checks.",
+    "Redirect retirement only after per-group 0 residual + cross-group inbound cutover (D14).",
+    "Lightning measured pair required (SAD D5); headless not_measured_headless ineligible.",
+    "AnimationComposition residual (Submarines ring-extension + full 730 burn-down) blocks all-redirect retirement."
+  ]
+}
