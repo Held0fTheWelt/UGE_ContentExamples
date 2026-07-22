@@ -1,0 +1,26 @@
+{
+  "schema_version": "capability_mesh.route.v1",
+  "route_id": "setup_editor.sandbox.echo.v1",
+  "title": "Setup Editor Sandbox Echo",
+  "description": "Editable playground route for the UCM Setup Editor.\nThis route is intentionally bound to a non-existent plugin so activation fails predictably while manifests remain editable.",
+  "steps": [
+    {
+      "step_id": "echo",
+      "capability_id": "setup_editor.sandbox.echo",
+      "input_bindings": {
+        "request": "$route.input.request_json"
+      },
+      "output_bindings": {
+        "response": "$route.output.response_json"
+      }
+    }
+  ],
+  "policy": {
+    "allow_project_mutation": false,
+    "allow_asset_mutation": false,
+    "allow_network": false,
+    "allow_ai_completion": false,
+    "allow_embeddings": false,
+    "requires_user_approval": false
+  }
+}

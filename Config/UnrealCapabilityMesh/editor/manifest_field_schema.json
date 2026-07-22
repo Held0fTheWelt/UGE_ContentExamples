@@ -1,0 +1,140 @@
+{
+  "schema_version": "capability_mesh.editor_field_schema.v1",
+  "rules": [
+    {
+      "path_pattern": "enable_knowledge_store",
+      "field_type": "bool"
+    },
+    {
+      "path_pattern": "experimental_self_approval_all_routes",
+      "field_type": "bool"
+    },
+    {
+      "path_pattern": "tiny_tool_development_plugins_enabled",
+      "field_type": "bool"
+    },
+    {
+      "path_pattern": "setup_editor_show_cpp_source_hints",
+      "field_type": "bool"
+    },
+    {
+      "path_pattern": "enabled_capability_manifests",
+      "field_type": "string_array"
+    },
+    {
+      "path_pattern": "enabled_endpoint_manifests",
+      "field_type": "string_array"
+    },
+    {
+      "path_pattern": "enabled_schema_manifests",
+      "field_type": "string_array"
+    },
+    {
+      "path_pattern": "enabled_rule_manifests",
+      "field_type": "string_array"
+    },
+    {
+      "path_pattern": "enabled_route_manifests",
+      "field_type": "string_array"
+    },
+    {
+      "path_pattern": "enabled_transform_manifests",
+      "field_type": "string_array"
+    },
+    {
+      "path_pattern": "enabled_adapter_manifests",
+      "field_type": "string_array"
+    },
+    {
+      "path_pattern": "enabled_config_target_ids",
+      "field_type": "string_array"
+    },
+    {
+      "path_pattern": "experimental_self_approved_route_ids",
+      "field_type": "string_array"
+    },
+    {
+      "path_pattern": "required_plugin_names",
+      "field_type": "string_array"
+    },
+    {
+      "path_pattern": "side_effects",
+      "field_type": "enum_array",
+      "enum_values": [
+        "read_only",
+        "saved_folder_write",
+        "project_config_write",
+        "asset_mutation",
+        "project_mutation",
+        "network",
+        "ai_completion",
+        "embeddings"
+      ]
+    },
+    {
+      "path_pattern": "invocation_mode",
+      "field_type": "enum",
+      "enum_values": [
+        "reflection_static_function",
+        "reflection_subsystem_function",
+        "reflection_cdo_function",
+        "file_contract",
+        "modular_feature_provider",
+        "python_bridge",
+        "commandlet",
+        "external_process"
+      ]
+    },
+    {
+      "path_pattern": "allow_project_mutation",
+      "field_type": "bool"
+    },
+    {
+      "path_pattern": "allow_asset_mutation",
+      "field_type": "bool"
+    },
+    {
+      "path_pattern": "allow_network",
+      "field_type": "bool"
+    },
+    {
+      "path_pattern": "allow_ai_completion",
+      "field_type": "bool"
+    },
+    {
+      "path_pattern": "allow_embeddings",
+      "field_type": "bool"
+    },
+    {
+      "path_pattern": "requires_user_approval",
+      "field_type": "bool"
+    },
+    {
+      "path_pattern": "requires_editor",
+      "field_type": "bool"
+    },
+    {
+      "path_pattern": "requires_loaded_plugin",
+      "field_type": "bool"
+    },
+    {
+      "path_pattern": "kind",
+      "field_type": "enum",
+      "enum_values": [
+        "uobject_config",
+        "json_file",
+        "ini_file"
+      ]
+    },
+    {
+      "path_pattern": "direction",
+      "field_type": "enum",
+      "enum_values": [
+        "Input",
+        "Output",
+        "in",
+        "out"
+      ]
+    }
+  ]
+}

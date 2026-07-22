@@ -1,0 +1,205 @@
+{
+  "schema": "s9.softload_rematerialize_batch.v1",
+  "count": 25,
+  "assets": [
+    {
+      "target": "/Game/Effects/NiagaraModules/NM_FootPrintSizeAndOrientation.NM_FootPrintSizeAndOrientation",
+      "donors": [
+        "/LyraVfxAssets/Effects/NiagaraModules/NM_FootPrintSizeAndOrientation.NM_FootPrintSizeAndOrientation",
+        "/WarDonor/Effects/NiagaraModules/NM_FootPrintSizeAndOrientation.NM_FootPrintSizeAndOrientation"
+      ]
+    },
+    {
+      "target": "/Game/Effects/NiagaraModules/NM_ImpactReadDataChannel.NM_ImpactReadDataChannel",
+      "donors": [
+        "/LyraVfxAssets/Effects/NiagaraModules/NM_ImpactReadDataChannel.NM_ImpactReadDataChannel",
+        "/WarDonor/Effects/NiagaraModules/NM_ImpactReadDataChannel.NM_ImpactReadDataChannel"
+      ]
+    },
+    {
+      "target": "/Game/Effects/NiagaraModules/NM_ImpactSpawnAttributes.NM_ImpactSpawnAttributes",
+      "donors": [
+        "/LyraVfxAssets/Effects/NiagaraModules/NM_ImpactSpawnAttributes.NM_ImpactSpawnAttributes",
+        "/WarDonor/Effects/NiagaraModules/NM_ImpactSpawnAttributes.NM_ImpactSpawnAttributes"
+      ]
+    },
+    {
+      "target": "/Game/Effects/NiagaraModules/NM_ImpactSpawnDataChannel.NM_ImpactSpawnDataChannel",
+      "donors": [
+        "/LyraVfxAssets/Effects/NiagaraModules/NM_ImpactSpawnDataChannel.NM_ImpactSpawnDataChannel",
+        "/WarDonor/Effects/NiagaraModules/NM_ImpactSpawnDataChannel.NM_ImpactSpawnDataChannel"
+      ]
+    },
+    {
+      "target": "/Game/Effects/NiagaraModules/NM_ImpactSpawnDataChannelConditional.NM_ImpactSpawnDataChannelConditional",
+      "donors": [
+        "/LyraVfxAssets/Effects/NiagaraModules/NM_ImpactSpawnDataChannelConditional.NM_ImpactSpawnDataChannelConditional",
+        "/WarDonor/Effects/NiagaraModules/NM_ImpactSpawnDataChannelConditional.NM_ImpactSpawnDataChannelConditional"
+      ]
+    },
+    {
+      "target": "/Game/Effects/NiagaraModules/NM_ParticleLight.NM_ParticleLight",
+      "donors": [
+        "/LyraVfxAssets/Effects/NiagaraModules/NM_ParticleLight.NM_ParticleLight",
+        "/WarDonor/Effects/NiagaraModules/NM_ParticleLight.NM_ParticleLight"
+      ]
+    },
+    {
+      "target": "/Game/Effects/NiagaraModules/NM_ProjectToPlane.NM_ProjectToPlane",
+      "donors": [
+        "/LyraVfxAssets/Effects/NiagaraModules/NM_ProjectToPlane.NM_ProjectToPlane",
+        "/WarDonor/Effects/NiagaraModules/NM_ProjectToPlane.NM_ProjectToPlane"
+      ]
+    },
+    {
+      "target": "/Game/Effects/NiagaraModules/NM_SubImageIndexVariants.NM_SubImageIndexVariants",
+      "donors": [
+        "/LyraVfxAssets/Effects/NiagaraModules/NM_SubImageIndexVariants.NM_SubImageIndexVariants",
+        "/WarDonor/Effects/NiagaraModules/NM_SubImageIndexVariants.NM_SubImageIndexVariants"
+      ]
+    },
+    {
+      "target": "/Game/Effects/NiagaraModules/NM_WeaponTrigger.NM_WeaponTrigger",
+      "donors": [
+        "/LyraVfxAssets/Effects/NiagaraModules/NM_WeaponTrigger.NM_WeaponTrigger",
+        "/WarDonor/Effects/NiagaraModules/NM_WeaponTrigger.NM_WeaponTrigger"
+      ]
+    },
+    {
+      "target": "/Game/Effects/Particles/Environmental/Emitters/NE_BoneBasedEmission.NE_BoneBasedEmission",
+      "donors": [
+        "/LyraVfxAssets/Effects/Particles/Environmental/Emitters/NE_BoneBasedEmission.NE_BoneBasedEmission",
+        "/WarDonor/Effects/Particles/Environmental/Emitters/NE_BoneBasedEmission.NE_BoneBasedEmission"
+      ],
+      "system_donor": "/Game/Effects/Particles/Environmental/NS_CharacterSpawnIn.NS_CharacterSpawnIn"
+    },
+    {
+      "target": "/Game/Effects/Particles/Environmental/Emitters/NE_SkeletalSurfaceBasedEmission.NE_SkeletalSurfaceBasedEmission",
+      "donors": [
+        "/LyraVfxAssets/Effects/Particles/Environmental/Emitters/NE_SkeletalSurfaceBasedEmission.NE_SkeletalSurfaceBasedEmission",
+        "/WarDonor/Effects/Particles/Environmental/Emitters/NE_SkeletalSurfaceBasedEmission.NE_SkeletalSurfaceBasedEmission"
+      ],
+      "system_donor": "/Game/Effects/Particles/Environmental/NS_CharacterSpawnIn.NS_CharacterSpawnIn"
+    },
+    {
+      "target": "/Game/Effects/Particles/Impacts/Emitters/NE_DustyFlipbook.NE_DustyFlipbook",
+      "donors": [
+        "/WarDonor/Effects/Particles/Impacts/Emitters/NE_DustyFlipbook.NE_DustyFlipbook"
+      ],
+      "system_donor": "/Game/Effects/Particles/Impacts/NS_ImpactConcrete.NS_ImpactConcrete"
+    },
+    {
+      "target": "/Game/Effects/Particles/Impacts/Emitters/NE_ImpactCone.NE_ImpactCone",
+      "donors": [
+        "/WarDonor/Effects/Particles/Impacts/Emitters/NE_ImpactCone.NE_ImpactCone"
+      ],
+      "system_donor": "/Game/Effects/Particles/Impacts/NS_ImpactConcrete.NS_ImpactConcrete"
+    },
+    {
+      "target": "/Game/Effects/Particles/Impacts/Emitters/NE_ImpactCore.NE_ImpactCore",
+      "donors": [
+        "/WarDonor/Effects/Particles/Impacts/Emitters/NE_ImpactCore.NE_ImpactCore"
+      ],
+      "system_donor": "/Game/Effects/Particles/Impacts/NS_ImpactConcrete.NS_ImpactConcrete"
+    },
+    {
+      "target": "/Game/Effects/Particles/Impacts/Emitters/NE_ImpactParticleLight.NE_ImpactParticleLight",
+      "donors": [
+        "/WarDonor/Effects/Particles/Impacts/Emitters/NE_ImpactParticleLight.NE_ImpactParticleLight"
+      ],
+      "system_donor": "/Game/Effects/Particles/Impacts/NS_ImpactConcrete.NS_ImpactConcrete"
+    },
+    {
+      "target": "/Game/Effects/Particles/Impacts/Emitters/NE_ImpactSparks.NE_ImpactSparks",
+      "donors": [
+        "/WarDonor/Effects/Particles/Impacts/Emitters/NE_ImpactSparks.NE_ImpactSparks"
+      ],
+      "system_donor": "/Game/Effects/Particles/Impacts/NS_ImpactConcrete.NS_ImpactConcrete"
+    },
+    {
+      "target": "/Game/Effects/Particles/Impacts/Emitters/NE_Rocks.NE_Rocks",
+      "donors": [
+        "/WarDonor/Effects/Particles/Impacts/Emitters/NE_Rocks.NE_Rocks"
+      ],
+      "system_donor": "/Game/Effects/Particles/Impacts/NS_ImpactConcrete.NS_ImpactConcrete"
+    },
+    {
+      "target": "/Game/Effects/Particles/Item/Emitters/NE_RingMeshTimer.NE_RingMeshTimer",
+      "donors": [
+        "/LyraVfxAssets/Effects/Particles/Item/Emitters/NE_RingMeshTimer.NE_RingMeshTimer",
+        "/WarDonor/Effects/Particles/Item/Emitters/NE_RingMeshTimer.NE_RingMeshTimer"
+      ],
+      "system_donor": "/Game/Effects/Particles/Item/NS_GunPad_Loading.NS_GunPad_Loading"
+    },
+    {
+      "target": "/Game/Effects/Particles/Lighting/Emitters/NE_ParticleLight.NE_ParticleLight",
+      "donors": [
+        "/LyraVfxAssets/Effects/Particles/Lighting/Emitters/NE_ParticleLight.NE_ParticleLight",
+        "/WarDonor/Effects/Particles/Lighting/Emitters/NE_ParticleLight.NE_ParticleLight"
+      ],
+      "system_donor": "/Game/Effects/Particles/Weapons/NS_WeaponFire.NS_WeaponFire"
+    },
+    {
+      "target": "/Game/Effects/Particles/Weapons/Emitters/NE_MuzzleFlashCards.NE_MuzzleFlashCards",
+      "donors": [
+        "/LyraVfxAssets/Effects/Particles/Weapons/Emitters/NE_MuzzleFlashCards.NE_MuzzleFlashCards",
+        "/WarDonor/Effects/Particles/Weapons/Emitters/NE_MuzzleFlashCards.NE_MuzzleFlashCards"
+      ],
+      "system_donor": "/Game/Effects/Particles/Weapons/NS_WeaponFire.NS_WeaponFire"
+    },
+    {
+      "target": "/Game/Effects/Particles/Weapons/Emitters/NE_MuzzleFlashSmoke.NE_MuzzleFlashSmoke",
+      "donors": [
+        "/LyraVfxAssets/Effects/Particles/Weapons/Emitters/NE_MuzzleFlashSmoke.NE_MuzzleFlashSmoke",
+        "/WarDonor/Effects/Particles/Weapons/Emitters/NE_MuzzleFlashSmoke.NE_MuzzleFlashSmoke"
+      ],
+      "system_donor": "/Game/Effects/Particles/Weapons/NS_WeaponFire.NS_WeaponFire"
+    },
+    {
+      "target": "/Game/Effects/Particles/Weapons/Emitters/NE_MuzzleFlashSparks.NE_MuzzleFlashSparks",
+      "donors": [
+        "/LyraVfxAssets/Effects/Particles/Weapons/Emitters/NE_MuzzleFlashSparks.NE_MuzzleFlashSparks",
+        "/WarDonor/Effects/Particles/Weapons/Emitters/NE_MuzzleFlashSparks.NE_MuzzleFlashSparks"
+      ],
+      "system_donor": "/Game/Effects/Particles/Weapons/NS_WeaponFire.NS_WeaponFire"
+    },
+    {
+      "target": "/Game/Effects/Particles/Weapons/Emitters/NE_MuzzleFlashStarBurst.NE_MuzzleFlashStarBurst",
+      "donors": [
+        "/LyraVfxAssets/Effects/Particles/Weapons/Emitters/NE_MuzzleFlashStarBurst.NE_MuzzleFlashStarBurst",
+        "/WarDonor/Effects/Particles/Weapons/Emitters/NE_MuzzleFlashStarBurst.NE_MuzzleFlashStarBurst"
+      ],
+      "system_donor": "/Game/Effects/Particles/Weapons/NS_WeaponFire_MuzzleFlash_Rifle.NS_WeaponFire_MuzzleFlash_Rifle"
+    },
+    {
+      "target": "/Game/UI/Foundation/Fonts/NotoSans.NotoSans",
+      "donors": [
+        "/LyraUIAssets/UI/Foundation/Fonts/NotoSans.NotoSans"
+      ],
+      "font_faces": [
+        "/Game/UI/Foundation/Fonts/NotoSans/NotoSans-Regular.NotoSans-Regular",
+        "/Game/UI/Foundation/Fonts/NotoSans/NotoSans-Bold.NotoSans-Bold",
+        "/Game/UI/Foundation/Fonts/NotoSans/NotoSans-Black.NotoSans-Black",
+        "/Game/UI/Foundation/Fonts/NotoSans/NotoSans-Light.NotoSans-Light",
+        "/Game/UI/Foundation/Fonts/NotoSans/NotoSansArabic-Regular.NotoSansArabic-Regular",
+        "/Game/UI/Foundation/Fonts/NotoSans/NotoSansArabic-Bold.NotoSansArabic-Bold",
+        "/Game/UI/Foundation/Fonts/NotoSans/NotoSansJP-Bold.NotoSansJP-Bold",
+        "/Game/UI/Foundation/Fonts/NotoSans/NotoSansKR-Regular.NotoSansKR-Regular",
+        "/Game/UI/Foundation/Fonts/NotoSans/NotoSansSC-Regular.NotoSansSC-Regular",
+        "/Game/UI/Foundation/Fonts/NotoSans/NotoSansTC-Regular.NotoSansTC-Regular",
+        "/Game/UI/Foundation/Fonts/NotoSans/NotoColorEmoji.NotoColorEmoji"
+      ]
+    },
+    {
+      "target": "/Game/UI/Foundation/Fonts/Orbitron.Orbitron",
+      "donors": [
+        "/LyraUIAssets/UI/Foundation/Fonts/Orbitron.Orbitron"
+      ],
+      "font_faces": [
+        "/Game/UI/Foundation/Fonts/Orbitron/Orbitron-Medium.Orbitron-Medium",
+        "/Game/UI/Foundation/Fonts/Orbitron/Orbitron-Bold.Orbitron-Bold",
+        "/Game/UI/Foundation/Fonts/Orbitron/Orbitron-Black.Orbitron-Black"
+      ]
+    }
+  ]
+}

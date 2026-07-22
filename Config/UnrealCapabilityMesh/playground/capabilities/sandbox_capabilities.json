@@ -1,0 +1,30 @@
+{
+  "schema_version": "capability_mesh.capability_manifest.v1",
+  "provider_id": "setup_editor_sandbox",
+  "display_name": "Setup Editor Sandbox",
+  "capabilities": [
+    {
+      "capability_id": "setup_editor.sandbox.echo",
+      "title": "Sandbox Echo (no binding)",
+      "category": "setup_editor_playground",
+      "side_effects": [
+        "read_only"
+      ],
+      "inputs": [
+        {
+          "port_id": "request",
+          "schema_id": "setup_editor.sandbox.request.v1",
+          "direction": "Input"
+        }
+      ],
+      "outputs": [
+        {
+          "port_id": "response",
+          "schema_id": "setup_editor.sandbox.response.v1",
+          "direction": "Output"
+        }
+      ],
+      "endpoint_id": "setup_editor.sandbox.echo.endpoint"
+    }
+  ]
+}

@@ -1,306 +1,310 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "5.8",
-	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "UGE_ContentExamples",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "UGE_ContentExamplesEditor",
-			"Type": "Editor",
-			"LoadingPhase": "Default"
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "UnrealCapabilityMesh",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "UnifiedMcpServer",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "TinyToolExecution",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "TinyToolExecutionIntegrationBridge",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "AssetPluginMaker",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "ProjectIntelligenceOrchestrator",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "UnrealBlueprintIntegrator",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "UnrealIntegrationIntelligence",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "UnrealCodeIntegrator",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "InternalIndexService",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "SmartContentDiet",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "GameFeatures",
-			"Enabled": true
-		},
-		{
-			"Name": "AnimationLocomotionLibrary",
-			"Enabled": true
-		},
-		{
-			"Name": "AnimationWarping",
-			"Enabled": true
-		},
-		{
-			"Name": "MotionWarping",
-			"Enabled": true
-		},
-		{
-			"Name": "GameplayCameras",
-			"Enabled": true
-		},
-		{
-			"Name": "Spatialization",
-			"Enabled": true
-		},
-		{
-			"Name": "ModularGameplay",
-			"Enabled": true
-		},
-		{
-			"Name": "AsyncMixin",
-			"Enabled": true
-		},
-		{
-			"Name": "CommonLoadingScreen",
-			"Enabled": true
-		},
-		{
-			"Name": "CommonUser",
-			"Enabled": true
-		},
-		{
-			"Name": "GameplayMessageRouter",
-			"Enabled": true
-		},
-		{
-			"Name": "GameSettings",
-			"Enabled": true
-		},
-		{
-			"Name": "GameSubtitles",
-			"Enabled": true
-		},
-		{
-			"Name": "LoggingMacros",
-			"Enabled": true
-		},
-		{
-			"Name": "PocketWorlds",
-			"Enabled": true
-		},
-		{
-			"Name": "AssetLoader",
-			"Enabled": true
-		},
-		{
-			"Name": "EditorManager",
-			"Enabled": true
-		},
-		{
-			"Name": "Elemental_Collection",
-			"Enabled": true
-		},
-		{
-			"Name": "InputSystem",
-			"Enabled": true
-		},
-		{
-			"Name": "Controllers",
-			"Enabled": true
-		},
-		{
-			"Name": "Core_Collection",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_AccoladeSystem",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_AnimationSystem",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_CosmeticsSystem",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_EquipmentSystem",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_ExperienceSystem",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_FeedbackSystem",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_HeroSystem",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_HumanoidMovement",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_Interact",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_InteractionSystem",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_InventorySystem",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_PawnExtension",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_PhysicalAwareness",
-			"Enabled": true
-		},
-		{
-			"Name": "GameFeature_Tournament",
-			"Enabled": true
-		},
-		{
-			"Name": "Aircrafts",
-			"Enabled": true
-		},
-		{
-			"Name": "Helicopters",
-			"Enabled": true
-		},
-		{
-			"Name": "Humanoids",
-			"Enabled": true
-		},
-		{
-			"Name": "Ships",
-			"Enabled": true
-		},
-		{
-			"Name": "Submarines",
-			"Enabled": true
-		},
-		{
-			"Name": "Vehicles",
-			"Enabled": true
-		},
-		{
-			"Name": "EntityCoreEditor",
-			"Enabled": true
-		},
-		{
-			"Name": "EntityVisualEditor",
-			"Enabled": true
-		},
-		{
-			"Name": "LyraContentCompatibility",
-			"Enabled": true
-		},
-		{
-			"Name": "ShooterCore",
-			"Enabled": true
-		},
-		{
-			"Name": "ShooterMaps",
-			"Enabled": true
-		},
-		{
-			"Name": "GameplayAbilities",
-			"Enabled": true
-		},
-		{
-			"Name": "Synthesis",
-			"Enabled": true
-		}
-	],
-	"AdditionalPluginDirectories": [
-		"AssetPlugins",
-		"CorePlugins",
-		"EditorPlugins",
-		"WidgetPlugins",
-		"SamplePlugins"
-	],
-	"TargetPlatforms": [
-		"Windows"
-	]
+    "FileVersion":  3,
+    "EngineAssociation":  "5.8",
+    "Category":  "",
+    "Description":  "",
+    "Modules":  [
+                    {
+                        "Name":  "UGE_ContentExamples",
+                        "Type":  "Runtime",
+                        "LoadingPhase":  "Default"
+                    },
+                    {
+                        "Name":  "UGE_ContentExamplesEditor",
+                        "Type":  "Editor",
+                        "LoadingPhase":  "Default"
+                    }
+                ],
+    "Plugins":  [
+                    {
+                        "Name":  "ModelingToolsEditorMode",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "UnrealCapabilityMesh",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "UnifiedMcpServer",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "TinyToolExecution",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "TinyToolExecutionIntegrationBridge",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "AssetPluginMaker",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "ProjectIntelligenceOrchestrator",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "UnrealBlueprintIntegrator",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "UnrealIntegrationIntelligence",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "UnrealCodeIntegrator",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "InternalIndexService",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "SmartContentDiet",
+                        "Enabled":  true,
+                        "TargetAllowList":  [
+                                                "Editor"
+                                            ]
+                    },
+                    {
+                        "Name":  "GameFeatures",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "AnimationLocomotionLibrary",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "AnimationWarping",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "MotionWarping",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameplayCameras",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Spatialization",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "ModularGameplay",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "AsyncMixin",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "CommonLoadingScreen",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "CommonUser",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameplayMessageRouter",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameSettings",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameSubtitles",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "LoggingMacros",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "PocketWorlds",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "AssetLoader",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "EditorManager",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Elemental_Collection",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "InputSystem",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Controllers",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Core_Collection",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_AccoladeSystem",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_AnimationSystem",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_CosmeticsSystem",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_EquipmentSystem",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_ExperienceSystem",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_FeedbackSystem",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_HeroSystem",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_HumanoidMovement",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_Interact",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_InteractionSystem",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_InventorySystem",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_PawnExtension",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_PhysicalAwareness",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameFeature_Tournament",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Aircrafts",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Helicopters",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Humanoids",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Ships",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Submarines",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Vehicles",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "EntityCoreEditor",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "EntityVisualEditor",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "LyraContentCompatibility",
+                        "Enabled":  false
+                    },
+                    {
+                        "Name":  "ShooterCore",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "ShooterMaps",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "GameplayAbilities",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Synthesis",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "Lightning",
+                        "Enabled":  true
+                    }
+                ],
+    "AdditionalPluginDirectories":  [
+                                        "AssetPlugins",
+                                        "CorePlugins",
+                                        "EditorPlugins",
+                                        "WidgetPlugins",
+                                        "SamplePlugins"
+                                    ],
+    "TargetPlatforms":  [
+                            "Windows"
+                        ]
 }

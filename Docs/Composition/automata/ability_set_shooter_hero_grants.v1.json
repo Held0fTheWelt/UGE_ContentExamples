@@ -1,0 +1,57 @@
+{
+  "schema": "pio.ability_set_grants.v1",
+  "target": "/ShooterCore/Game/AbilitySet_ShooterHero.AbilitySet_ShooterHero",
+  "grounding_ref": "docs/BPJ/project-journals/lyra-starter-game/04-pawn-init-and-abilities.md",
+  "grants": [
+    {
+      "ability": "/Script/Core_AbilitySystem.CoreGameplayAbility_Jump",
+      "input_tag": "InputTag.Jump",
+      "ability_level": 1
+    },
+    {
+      "ability": "/Script/Core_AbilitySystem.CoreGameplayAbility_Death",
+      "input_tag": "",
+      "ability_level": 1
+    },
+    {
+      "ability": "/ShooterCore/Game/Dash/GA_Hero_Dash.GA_Hero_Dash",
+      "input_tag": "InputTag.Ability.Dash",
+      "ability_level": 1
+    },
+    {
+      "ability": "/ShooterCore/Game/Emote/GA_Emote.GA_Emote",
+      "input_tag": "InputTag.Ability.Emote",
+      "ability_level": 1
+    },
+    {
+      "ability": "/ShooterCore/Game/GA_QuickbarSlots.GA_QuickbarSlots",
+      "input_tag": "InputTag.Ability.Quickslot",
+      "ability_level": 1
+    },
+    {
+      "ability": "/ShooterCore/Input/Abilities/GA_ADS.GA_ADS",
+      "input_tag": "InputTag.Weapon.ADS",
+      "ability_level": 1
+    },
+    {
+      "ability": "/ShooterCore/Input/Abilities/GA_Grenade.GA_Grenade",
+      "input_tag": "InputTag.Weapon.Grenade",
+      "ability_level": 1
+    },
+    {
+      "ability": "/ShooterCore/Input/Abilities/GA_DropWeapon.GA_DropWeapon",
+      "input_tag": "InputTag.Ability.Quickslot.Drop",
+      "ability_level": 1
+    },
+    {
+      "ability": "/ShooterCore/Game/Melee/GA_Melee.GA_Melee",
+      "input_tag": "InputTag.Ability.Melee",
+      "ability_level": 1
+    },
+    {
+      "ability": "/ShooterCore/Game/Respawn/GA_SpawnEffect.GA_SpawnEffect",
+      "input_tag": "",
+      "ability_level": 1
+    }
+  ]
+}

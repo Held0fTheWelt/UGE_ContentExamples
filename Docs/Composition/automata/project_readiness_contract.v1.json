@@ -1,0 +1,31 @@
+{
+  "schema": "pio.project_readiness_contract.v1",
+  "project": "UGE_ContentExamples",
+  "experiences": [
+    {
+      "id": "DA_Experience_ShooterGame_Elimination",
+      "maps": ["/ShooterMaps/Maps/L_Expanse"]
+    },
+    {
+      "id": "B_LyraShooterGame_ControlPoints",
+      "maps": ["/ShooterMaps/Maps/L_Expanse"]
+    }
+  ],
+  "netmodes": ["standalone", "dedicated_server_2_clients"],
+  "input_flows": [
+    { "id": "move", "assertion_contract": "gas_ability_activation" },
+    { "id": "jump", "assertion_contract": "gas_ability_activation" },
+    { "id": "fire", "assertion_contract": "gas_ability_activation" },
+    { "id": "interact", "assertion_contract": "gas_ability_activation" }
+  ],
+  "required_gates": [
+    "whole_game_closure",
+    "asset_integrity",
+    "config_census",
+    "functional_lanes"
+  ],
+  "grounding": {
+    "elimination": "Docs/Composition/automata/network_acceptance.v1.json + S1 PIE",
+    "control_points": "/ShooterCore/Experiences/B_LyraShooterGame_ControlPoints (network_acceptance.v1.json)"
+  }
+}

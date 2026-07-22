@@ -1,0 +1,515 @@
+{
+  "schema_version": "asset_class_policy.v1",
+  "unclassified": "blocker",
+  "classes": {
+    "/Game/Environments/Gameplay/BP_GameplayEffectPad.BP_GameplayEffectPad_C": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Game/Tools/BakedGeneratedMeshSystem/BaseClasses/BakedStaticMeshActor.BakedStaticMeshActor_C": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/AIModule.BehaviorTree": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/AIModule.BlackboardData": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/AIModule.EnvQuery": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/AIModule.NavLinkProxy": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/AudioModulation.SoundControlBus": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/AudioModulation.SoundModulationPatch": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/CinematicCamera.CineCameraActor": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/ControlRigDeveloper.ControlRigBlueprint": {
+      "compile_kind": "blueprint_compile",
+      "functionality_kind": "behavioral",
+      "functionality_contract": "blueprint_composition"
+    },
+    "/Script/CoreUObject.ObjectRedirector": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Core_AbilitySystem.AbilityTagRelationshipMapping": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Core_AbilitySystem.CoreAbilitySet": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Core_Data.ExperienceActionSet": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Core_Data.ExperienceDefinition": {
+      "compile_kind": "load_only",
+      "functionality_kind": "behavioral",
+      "functionality_contract": "experience_resolve_grant"
+    },
+    "/Script/Core_Data.UserFacingExperienceDefinition": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Core_Physics.CorePhysicalMaterialWithTags": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Core_System.PawnData_Core": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/DataRegistry.DataRegistry": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Elemental_Classes.ContextEffectsLibrary_Base": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Elemental_Classes.DamagePopStyleNiagara": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Elemental_Classes.PlayerStart_Base": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Elemental_Teams.TeamDisplayAsset": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.Actor": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.ActorFolder": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.AimOffsetBlendSpace": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.AmbientSound": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.AnimBlueprint": {
+      "compile_kind": "blueprint_compile",
+      "functionality_kind": "behavioral",
+      "functionality_contract": "blueprint_composition"
+    },
+    "/Script/Engine.AnimCurveCompressionSettings": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.AnimMontage": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.AnimSequence": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.AudioVolume": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.BlendSpace1D": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.BlockingVolume": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.Blueprint": {
+      "compile_kind": "blueprint_compile",
+      "functionality_kind": "behavioral",
+      "functionality_contract": "blueprint_composition"
+    },
+    "/Script/Engine.BoxReflectionCapture": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.CurveFloat": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.CurveLinearColor": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.CurveLinearColorAtlas": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.CurveTable": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.CurveVector": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.DataAsset": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.DataLayerAsset": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.DataTable": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.DirectionalLight": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.ExponentialHeightFog": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.Font": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.FontFace": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.ForceFeedbackEffect": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.MapBuildDataRegistry": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.Material": {
+      "compile_kind": "shader_compile",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.MaterialFunction": {
+      "compile_kind": "shader_compile",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.MaterialInstanceConstant": {
+      "compile_kind": "shader_compile",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.PhysicsAsset": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.PoseAsset": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.PostProcessVolume": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.PrimaryAssetLabel": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.PrimaryDataAsset": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.RectLight": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.SkeletalMesh": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.Skeleton": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.SkyAtmosphere": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.SkyLight": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.SoundAttenuation": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.SoundBase": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.SoundClass": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.SoundConcurrency": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.SoundSubmix": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.SoundWave": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.SphereReflectionCapture": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.StaticMesh": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.StaticMeshActor": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.TargetPoint": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.TextRenderActor": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.Texture2D": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.UserDefinedEnum": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.UserDefinedStruct": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.VolumetricCloud": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.World": {
+      "compile_kind": "map_build",
+      "functionality_kind": "behavioral",
+      "functionality_contract": "map_cold_boot"
+    },
+    "/Script/Engine.WorldDataLayers": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Engine.WorldPartitionMiniMap": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/EnhancedInput.InputAction": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/EnhancedInput.InputMappingContext": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/GameFeature_EquipmentSystemRuntime.WeaponPickupDefinition": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/GameFeatures.GameFeatureData": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/GameSettings.GameSettingVisualData": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/GameSubtitles.SubtitleDisplayOptions": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/GameplayAbilities.GameplayAbility": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/GameplayAbilities.GameplayAbilityBlueprint": {
+      "compile_kind": "blueprint_compile",
+      "functionality_kind": "behavioral",
+      "functionality_contract": "blueprint_composition"
+    },
+    "/Script/GameplayAbilities.GameplayEffect": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/InputSystem.AimSensitivityData": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/InputSystem.InputConfigDataAssetSet": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/InputSystem.InputConfig_TagRouted": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Landscape.Landscape": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Landscape.LandscapeStreamingProxy": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/LevelSequence.LevelSequence": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/LevelSequence.LevelSequenceActor": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/LyraGame.LyraExperienceDefinition": {
+      "compile_kind": "load_only",
+      "functionality_kind": "behavioral",
+      "functionality_contract": "experience_resolve_grant"
+    },
+    "/Script/MetasoundEngine.MetaSoundPatch": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/MetasoundEngine.MetaSoundSource": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/NavigationSystem.NavMeshBoundsVolume": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/NavigationSystem.NavModifierVolume": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Niagara.NiagaraDataChannelAsset": {
+      "compile_kind": "niagara_compile",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Niagara.NiagaraEffectType": {
+      "compile_kind": "niagara_compile",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Niagara.NiagaraEmitter": {
+      "compile_kind": "niagara_compile",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Niagara.NiagaraScript": {
+      "compile_kind": "niagara_compile",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Niagara.NiagaraSystem": {
+      "compile_kind": "niagara_compile",
+      "functionality_kind": "data_only"
+    },
+    "/Script/PhysicsCore.PhysicalMaterial": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Spatialization.ITDSpatializationSourceSettings": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Synthesis.AudioImpulseResponse": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Synthesis.SubmixEffectConvolutionReverbPreset": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Synthesis.SubmixEffectFilterPreset": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/Synthesis.SubmixEffectTapDelayPreset": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/Script/UMG.WidgetBlueprint": {
+      "compile_kind": "blueprint_compile",
+      "functionality_kind": "behavioral",
+      "functionality_contract": "blueprint_composition"
+    },
+    "/Script/UMGEditor.WidgetBlueprint": {
+      "compile_kind": "blueprint_compile",
+      "functionality_kind": "behavioral",
+      "functionality_contract": "blueprint_composition"
+    },
+    "/Script/UnrealEd.GroupActor": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/ShooterCore/Blueprint/B_AbilitySpawner.B_AbilitySpawner_C": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/ShooterCore/Blueprint/B_AimAssistTargetTest.B_AimAssistTargetTest_C": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/ShooterCore/Blueprint/B_ControlPointVolume.B_ControlPointVolume_C": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/ShooterCore/Blueprint/B_GrantAbilityPad_ApplyGE.B_GrantAbilityPad_ApplyGE_C": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/ShooterCore/Blueprint/B_GrantInventoryPad_WithMesh.B_GrantInventoryPad_WithMesh_C": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/ShooterCore/Blueprint/B_Launcher_Push.B_Launcher_Push_C": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/ShooterCore/Blueprint/B_Launcher_Up.B_Launcher_Up_C": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/ShooterCore/Blueprint/B_Teleport.B_Teleport_C": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    },
+    "/ShooterCore/Blueprint/B_WeaponSpawner.B_WeaponSpawner_C": {
+      "compile_kind": "load_only",
+      "functionality_kind": "data_only"
+    }
+  }
+}

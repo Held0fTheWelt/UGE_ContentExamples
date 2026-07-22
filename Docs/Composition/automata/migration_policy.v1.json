@@ -1,0 +1,8 @@
+{
+  "schema": "pio.migration_policy.v1",
+  "rules": [
+    { "class_path": "/Script/Niagara.NiagaraScript",  "action": "editor_resave", "verify": "cold_softload" },
+    { "class_path": "/Script/Niagara.NiagaraEmitter", "action": "editor_resave", "verify": "cold_softload" },
+    { "class_path": "/Script/Engine.Font",            "action": "editor_resave", "verify": "cold_softload" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "s9.softload_rematerialize_batch.v1",
+  "count": 2,
+  "assets": [
+    {
+      "target": "/Game/Effects/NiagaraModules/NM_ParticleLight.NM_ParticleLight",
+      "donors": []
+    },
+    {
+      "target": "/Game/UI/Foundation/Fonts/NotoSans.NotoSans",
+      "donors": []
+    }
+  ]
+}

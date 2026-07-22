@@ -1,3 +1,7 @@
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_MODULE(FDefaultModuleImpl, LyraGame)
+class FLyraGameModule : public IModuleInterface
+{
+};
+
+IMPLEMENT_MODULE(FLyraGameModule, LyraGame)

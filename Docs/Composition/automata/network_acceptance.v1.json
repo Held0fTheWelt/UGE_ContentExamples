@@ -1,0 +1,38 @@
+{
+  "schema": "pio.network_acceptance.v1",
+  "use_case_id": "lyra-uge-s7-network-acceptance",
+  "source_root": "D:/UGE_ContentExamples",
+  "target_root": "D:/UGE_ContentExamples",
+  "engine_root": "D:/Engines/UE_5.8",
+  "project": "D:/UGE_ContentExamples/UGE_ContentExamples.uproject",
+  "server_mode": "dedicated",
+  "map": "/ShooterMaps/Maps/L_Expanse",
+  "experiences": [
+    {
+      "id": "elimination",
+      "experience": "ExperienceDefinition:DA_Experience_ShooterGame_Elimination",
+      "asset": "/ShooterCore/Experiences/DA_Experience_ShooterGame_Elimination"
+    },
+    {
+      "id": "control_points",
+      "experience": "ExperienceDefinition:B_LyraShooterGame_ControlPoints",
+      "asset": "/ShooterCore/Experiences/B_LyraShooterGame_ControlPoints"
+    }
+  ],
+  "clients": 2,
+  "late_join_third_client": true,
+  "port": 7777,
+  "acceptance_checks": [
+    "server_replicated_state_visible_on_both_clients",
+    "owner_only_values_do_not_leak",
+    "repnotify_reaction_fires",
+    "late_joiner_receives_current_objective_state"
+  ],
+  "technique_outcomes_dir": "docs/BPJ/knowledge/sources/cedric-neukirchen-multiplayer-network-compendium/promotion",
+  "log_dir": "Saved/Automation/S7NetworkAcceptance",
+  "notes": [
+    "Dynamic lane for SAD D21 \u2014 dedicated server + two clients.",
+    "Asserts Cedric Neukirchen Acceptance Checks for Elimination and Control-Points.",
+    "Do not mark implementation_outcome applied/confirmed without real per-client assertion evidence."
+  ]
+}

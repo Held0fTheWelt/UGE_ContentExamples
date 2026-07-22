@@ -1,0 +1,30 @@
+{
+  "schema_version": "capability_mesh.tool_catalog.v1",
+  "catalog_id": "setup_editor_playground",
+  "display_name": "Setup Editor Playground",
+  "question": "I want to experiment with the Setup Editor sandbox",
+  "description": "Adds the non-binding playground manifests used by the UCM Setup Editor. Activation is expected to fail because no real plugin binding exists.",
+  "profile_activation_field": "setup_editor_playground_enabled",
+  "items": [
+    {
+      "item_id": "setup_editor_sandbox",
+      "display_name": "Setup Editor Sandbox (no binding)",
+      "description": "Editable sandbox manifests for learning UCM setup. Discovery marks capabilities unavailable because SetupEditorSandbox is not a real plugin.",
+      "capability_manifests": [
+        "playground/capabilities/sandbox_capabilities.json"
+      ],
+      "endpoint_manifests": [
+        "playground/endpoints/sandbox_endpoints.json"
+      ],
+      "schema_manifests": [
+        "playground/schemas/sandbox_schemas.json"
+      ],
+      "route_manifests": [
+        "playground/routes/sandbox_echo_route.json"
+      ],
+      "required_plugin_names": [
+        "SetupEditorSandbox"
+      ]
+    }
+  ]
+}

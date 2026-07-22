@@ -1,0 +1,16 @@
+{
+  "schema": "s7.boot_set_blueprints.v1",
+  "notes": [
+    "AssembleBootSet-critical Blueprints for Elimination + Control-Points cold-boot.",
+    "FromAsset→Evaluate must accept with 0 implementation/compile residuals."
+  ],
+  "blueprint_assets": [
+    "/ShooterCore/Game/B_Hero_ShooterMannequin.B_Hero_ShooterMannequin",
+    "/ShooterCore/UserInterface/W_ShooterHUDLayout.W_ShooterHUDLayout",
+    "/ShooterCore/UserInterface/W_ShooterHUDLayout_Rebuilt.W_ShooterHUDLayout_Rebuilt",
+    "/ShooterCore/Experiences/B_ShooterGame_Elimination.B_ShooterGame_Elimination",
+    "/ShooterCore/Experiences/B_LyraShooterGame_ControlPoints.B_LyraShooterGame_ControlPoints",
+    "/Game/Characters/Heroes/Abilities/GA_Hero_Jump_Rebuilt.GA_Hero_Jump_Rebuilt",
+    "/Game/GameplayEffects/Damage/GE_Damage_Basic_Instant_Rebuilt.GE_Damage_Basic_Instant_Rebuilt"
+  ]
+}

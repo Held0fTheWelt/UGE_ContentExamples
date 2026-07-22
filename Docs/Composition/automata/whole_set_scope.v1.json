@@ -1,0 +1,44 @@
+{
+  "schema_version": "pio.whole_set_scope.v1",
+  "include_roots": [
+    "/Game",
+    "/ShooterCore",
+    "/ShooterMaps",
+    "/Core_Collection",
+    "/GameFeature_AccoladeSystem",
+    "/GameFeature_AnimationSystem",
+    "/GameFeature_CosmeticsSystem",
+    "/GameFeature_EquipmentSystem",
+    "/GameFeature_ExperienceSystem",
+    "/GameFeature_FeedbackSystem",
+    "/GameFeature_HeroSystem",
+    "/GameFeature_HumanoidMovement",
+    "/GameFeature_Interact",
+    "/GameFeature_InteractionSystem",
+    "/GameFeature_InventorySystem",
+    "/GameFeature_PawnExtension",
+    "/GameFeature_PhysicalAwareness",
+    "/GameFeature_Tournament"
+  ],
+  "exclude_roots": [
+    "/Engine",
+    "/Script",
+    "/Paper2D",
+    "/Niagara",
+    "/LyraAudioAssets",
+    "/LyraCharacterAssets",
+    "/LyraExampleContent",
+    "/LyraMapAssets",
+    "/LyraMaterialAssets",
+    "/LyraSharedVisualAssets",
+    "/LyraSystemAssets",
+    "/LyraUIAssets",
+    "/LyraVfxAssets",
+    "/LyraWeaponAssets"
+  ],
+  "boot_seed": "docs/Composition/automata/s7_boot_set_blueprints.v1.json",
+  "notes": [
+    "CE-verified 2026-07-21: Elemental_* modules are C++-only (Elemental_Collection CanContainContent=false); plan placeholders /ElementalX|/Elemental_Teams|/Elemental_Player|/Elemental_Network are not content mounts.",
+    "In-scope ring content = /Game + /ShooterCore|/ShooterMaps + Core_Collection + GameFeature_* mounts. Lyra* asset packs excluded as third-party content."
+  ]
+}

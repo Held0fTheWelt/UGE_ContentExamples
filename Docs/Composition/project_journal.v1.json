@@ -1,0 +1,36 @@
+{
+  "schema": "pio.project_journal.v1",
+  "project": "UGE_ContentExamples",
+  "chapters": {
+    "config_deltas": {
+      "items": [
+        "CoreRedirects present; see config census redirect_line_count"
+      ]
+    },
+    "plugin_mounts": {
+      "items": [
+        "ProjectIntelligenceOrchestrator",
+        "AssetPluginMaker",
+        "ShooterCore",
+        "ShooterMaps"
+      ]
+    },
+    "modules": {
+      "items": [
+        "UGE_ContentExamples",
+        "UGE_ContentExamplesEditor"
+      ]
+    },
+    "tag_declarations": {
+      "items": []
+    },
+    "input_mappings": {
+      "declared_empty": true
+    },
+    "asset_pack_imports": {
+      "items": [
+        "Shooter/Lyra content via composition pipeline"
+      ]
+    }
+  }
+}

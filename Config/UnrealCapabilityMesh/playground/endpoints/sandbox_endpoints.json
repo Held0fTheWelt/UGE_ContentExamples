@@ -1,0 +1,31 @@
+{
+  "schema_version": "capability_mesh.endpoint_manifest.v1",
+  "endpoints": [
+    {
+      "endpoint_id": "setup_editor.sandbox.echo.endpoint",
+      "invocation_mode": "reflection_static_function",
+      "target": {
+        "class_path": "/Script/SetupEditorSandbox.NonBindingInvoker",
+        "function_name": "EchoJson"
+      },
+      "parameters": [
+        {
+          "param": "RequestJson",
+          "bind": "{\"sandbox\":true}"
+        },
+        {
+          "param": "ResponseJson",
+          "direction": "out",
+          "bind": "$route.output.response_json"
+        }
+      ],
+      "availability": {
+        "required_plugin_names": [
+          "SetupEditorSandbox"
+        ],
+        "requires_editor": true,
+        "requires_loaded_plugin": true
+      }
+    }
+  ]
+}

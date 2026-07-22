@@ -1,0 +1,26 @@
+﻿{
+    "schema":  "s8.strip_batch.v1",
+    "blueprint_assets":  [
+                             "/Game/Audio/Sounds/Emotes/BI_EmoteSoundInterface.BI_EmoteSoundInterface",
+                             "/Game/Characters/Character_Default.Character_Default",
+                             "/Game/Characters/Heroes/Mannequin/Animations/ABP_Mannequin_Base.ABP_Mannequin_Base",
+                             "/Game/Characters/Heroes/Mannequin/Animations/AnimModifiers/FootFXAnimModifier.FootFXAnimModifier",
+                             "/Game/Characters/Heroes/Mannequin/Animations/AnimModifiers/FootstepEffectTagModifier.FootstepEffectTagModifier",
+                             "/Game/Characters/Heroes/Mannequin/Animations/LinkedLayers/ALI_ItemAnimLayers.ALI_ItemAnimLayers",
+                             "/Game/Characters/Heroes/Mannequin/Rig/CR_Mannequin_FootPlant.CR_Mannequin_FootPlant",
+                             "/Game/Effects/AnimationNotifies/AN_FootPlant_Left.AN_FootPlant_Left",
+                             "/Game/Effects/Blueprints/B_FootStep.B_FootStep",
+                             "/Game/UI/Foundation/Subtitles/W_SubtitleDisplayHost.W_SubtitleDisplayHost",
+                             "/Game/UI/Hud/W_ActionTouchButton.W_ActionTouchButton",
+                             "/Game/UI/Hud/W_ActionTouchButton_MobileOnly.W_ActionTouchButton_MobileOnly",
+                             "/Game/UI/Hud/W_Healthbar.W_Healthbar",
+                             "/Game/UI/Hud/W_OpenMenuTouchButton.W_OpenMenuTouchButton",
+                             "/Game/UI/Menu/W_LyraArrowButton.W_LyraArrowButton",
+                             "/Game/UI/Menu/W_LyraMenuButton.W_LyraMenuButton",
+                             "/ShooterCore/UserInterface/HUD/W_AbilityFailureFeedback.W_AbilityFailureFeedback",
+                             "/ShooterCore/UserInterface/HUD/W_AbilityProgress.W_AbilityProgress"
+                         ],
+    "notes":  [
+                  "Tooling-driven strip batch from S8 diagnosis (D25/D26); never hand-patch."
+              ]
+}

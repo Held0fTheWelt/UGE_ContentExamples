@@ -1,0 +1,71 @@
+{
+  "schema_version": "capability_mesh.editor_plugin_source_hints.v1",
+  "hints": [
+    {
+      "item_id": "async_spline_builder",
+      "provider_id": "async_spline_builder",
+      "display_name": "Async Spline Builder",
+      "source_path": "Git/ScenePlugins/AsyncSplineBuilder"
+    },
+    {
+      "item_id": "internal_index_service",
+      "provider_id": "internal_index_service",
+      "display_name": "Internal Index Service",
+      "source_path": "Git/AIPlugins/InternalIndexService"
+    },
+    {
+      "item_id": "unreal_integration_intelligence_evidence",
+      "provider_id": "unreal_integration_intelligence",
+      "display_name": "Unreal Integration Intelligence",
+      "source_path": "Git/AIPlugins/UnrealIntegrationIntelligence"
+    },
+    {
+      "item_id": "llm_store_embeddings",
+      "provider_id": "llm_store",
+      "display_name": "LLM Store",
+      "source_path": "Git/AIPlugins/LLMStore"
+    },
+    {
+      "item_id": "project_restructure_service",
+      "provider_id": "project_restructure_service",
+      "display_name": "Project Restructure Service",
+      "source_path": "Git/AIPlugins/ProjectRestructureService"
+    },
+    {
+      "item_id": "smart_content_diet_migration",
+      "provider_id": "smart_content_diet",
+      "display_name": "SmartContentDiet",
+      "source_path": "Git/GovernanceDevelopmentPlugins/SmartContentDiet"
+    },
+    {
+      "item_id": "log_level_editor",
+      "provider_id": "log_level_editor",
+      "display_name": "Log Level Editor",
+      "source_path": "Git/GovernanceDevelopmentPlugins/LogLevelEditor"
+    },
+    {
+      "item_id": "naming_convention_utility",
+      "provider_id": "naming_convention_utility",
+      "display_name": "Naming Convention Utility",
+      "source_path": "Git/GovernanceDevelopmentPlugins/NamingConventionUtility"
+    },
+    {
+      "item_id": "performance_preset_wizard",
+      "provider_id": "performance_preset_wizard",
+      "display_name": "Performance Preset Wizard",
+      "source_path": "Git/GovernanceDevelopmentPlugins/PerformancePresetWizard"
+    },
+    {
+      "item_id": "lightweight_editor_mode",
+      "provider_id": "lightweight_editor_mode",
+      "display_name": "Lightweight Editor Mode",
+      "source_path": "Git/GovernanceDevelopmentPlugins/LightweightEditorMode"
+    },
+    {
+      "item_id": "code_copyright_editor",
+      "provider_id": "code_copyright_editor",
+      "display_name": "Code Copyright Editor",
+      "source_path": "Git/GovernanceDevelopmentPlugins/CodeCopyrightEditor"
+    }
+  ]
+}

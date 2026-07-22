@@ -1,0 +1,26 @@
+{
+	"schema_version": "capability_mesh.project_profile.v1",
+	"profile_id": "project_override",
+	"display_name": "Project Capability Mesh Overrides",
+	"enable_knowledge_store": true,
+	"enabled_capability_manifests": [],
+	"enabled_endpoint_manifests": [],
+	"enabled_schema_manifests": [],
+	"enabled_rule_manifests": [],
+	"enabled_route_manifests": [],
+	"enabled_transform_manifests": [],
+	"enabled_adapter_manifests": [],
+	"enabled_config_target_ids": [],
+	"experimental_self_approval_all_routes": false,
+	"experimental_self_approved_route_ids": [
+		"pio.composition.execute.v1",
+		"apm.cross_project.export_plugin.v1",
+		"apm.cross_project.adopt.v1",
+		"apm.content_packaging.execute_plan.v1",
+		"apm.content_packaging.blueprint_scaffold_preview.v1",
+		"apm.content_packaging.blueprint_scaffold_apply.v1",
+		"ubi.mutation.preview.v1",
+		"ubi.mutation.apply.v1",
+		"ubi.mutation.rollback.v1"
+	]
+}

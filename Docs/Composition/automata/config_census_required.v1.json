@@ -1,0 +1,18 @@
+{
+  "schema": "pio.config_census_required.v1",
+  "declared_categories": [
+    "core_redirects",
+    "gameplay_tags",
+    "modules",
+    "input",
+    "asset_manager"
+  ],
+  "forbidden_redirect_substrings": [
+    "/Script/LyraGame"
+  ],
+  "required_redirects": [],
+  "required_tags": [],
+  "required_modules": [],
+  "required_input_actions": [],
+  "required_primary_asset_types": []
+}
